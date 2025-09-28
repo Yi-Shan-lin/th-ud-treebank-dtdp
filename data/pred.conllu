@@ -1,0 +1,2515 @@
+# sent_id = 1
+# text = 你咧寫啥，我攏看無。
+1	你咧	你咧	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	寫啥	寫啥	VERB	VV	_	0	root	_	start_char=2|end_char=4|SpaceAfter=No
+3	，	，	PUNCT	,	_	6	punct	_	start_char=4|end_char=5|SpaceAfter=No
+4	我	我	PRON	PRP	Person=1	6	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+5	攏	攏	ADV	RB	_	6	advmod	_	start_char=6|end_char=7|SpaceAfter=No
+6	看無	看無	VERB	VV	_	2	parataxis	_	start_char=7|end_char=9|SpaceAfter=No
+7	。	。	PUNCT	.	_	2	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 2
+# text = 你是佇佗位啦？我哪會攏看無。
+1	你	你	PRON	PRP	Person=2	12	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	是	是	AUX	VC	_	5	cop	_	start_char=1|end_char=2|SpaceAfter=No
+3	佇	佇	ADP	IN	_	5	case	_	start_char=2|end_char=3|SpaceAfter=No
+4	佗	佗	PROPN	NNP	_	5	compound	_	start_char=3|end_char=4|SpaceAfter=No
+5	位	位	PART	SFN	_	12	obl	_	start_char=4|end_char=5|SpaceAfter=No
+6	啦	啦	PART	UH	_	5	acl	_	start_char=5|end_char=6|SpaceAfter=No
+7	？	？	PUNCT	.	_	5	punct	_	start_char=6|end_char=7|SpaceAfter=No
+8	我	我	PRON	PRP	Person=1	12	nsubj	_	start_char=7|end_char=8|SpaceAfter=No
+9	哪	哪	PRON	WP	_	12	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+10	會	會	AUX	MD	_	12	aux	_	start_char=9|end_char=10|SpaceAfter=No
+11	攏	攏	AUX	MD	_	12	aux	_	start_char=10|end_char=11|SpaceAfter=No
+12	看	看	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+13	無	無	VERB	VV	_	12	xcomp	_	start_char=12|end_char=13|SpaceAfter=No
+14	。	。	PUNCT	.	_	12	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 3
+# text = 你講的話攏做袂到，莫怪人會看你無。
+1	你	你	PRON	PRP	Person=2	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	講	講	VERB	VV	_	5	advcl	_	start_char=1|end_char=2|SpaceAfter=No
+3	的話	的話	PART	UH	_	2	discourse	_	start_char=2|end_char=4|SpaceAfter=No
+4	攏	攏	SCONJ	RB	_	5	mark	_	start_char=4|end_char=5|SpaceAfter=No
+5	做	做	VERB	VV	_	9	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+6	袂	袂	AUX	AS	Aspect=Perf	5	aux	_	start_char=6|end_char=7|SpaceAfter=No
+7	到	到	VERB	VV	_	5	mark	_	start_char=7|end_char=8|SpaceAfter=No
+8	，	，	PUNCT	,	_	5	punct	_	start_char=8|end_char=9|SpaceAfter=No
+9	莫怪	莫怪	VERB	VV	_	0	root	_	start_char=9|end_char=11|SpaceAfter=No
+10	人	人	NOUN	NN	_	12	nsubj	_	start_char=11|end_char=12|SpaceAfter=No
+11	會	會	AUX	MD	_	12	aux	_	start_char=12|end_char=13|SpaceAfter=No
+12	看	看	VERB	VV	_	9	ccomp	_	start_char=13|end_char=14|SpaceAfter=No
+13	你	你	PRON	PRP	Person=2	14	nsubj	_	start_char=14|end_char=15|SpaceAfter=No
+14	無	無	VERB	VV	_	12	ccomp	_	start_char=15|end_char=16|SpaceAfter=No
+15	。	。	PUNCT	.	_	9	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 4
+# text = 坐予好。
+1	坐予	坐予	VERB	VV	_	0	root	_	start_char=0|end_char=2|SpaceAfter=No
+2	好	好	ADJ	JJ	_	1	xcomp	_	start_char=2|end_char=3|SpaceAfter=No
+3	。	。	PUNCT	.	_	1	punct	_	start_char=3|end_char=4|SpaceAfter=No
+
+# sent_id = 5
+# text = 你予我考慮一下。
+1	你予	你予	VERB	VV	_	3	advcl	_	start_char=0|end_char=2|SpaceAfter=No
+2	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	考慮	考慮	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	一	一	NUM	CD	NumType=Card	5	nummod	_	start_char=5|end_char=6|SpaceAfter=No
+5	下	下	NOUN	NN	_	3	obj	_	start_char=6|end_char=7|SpaceAfter=No
+6	。	。	PUNCT	.	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 6
+# text = 我欲先來去矣。
+1	我	我	PRON	PRP	Person=1	5	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	欲	欲	AUX	MD	_	5	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	先來	先來	VERB	VV	_	5	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+4	去	去	SCONJ	RB	_	5	mark	_	start_char=4|end_char=5|SpaceAfter=No
+5	矣	矣	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	。	。	PUNCT	.	_	5	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 7
+# text = 飯會使烏白食，話毋通烏白講！
+1	飯	飯	NOUN	NN	_	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	會	會	AUX	MD	_	3	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	使	使	VERB	VV	Voice=Cau	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+4	烏白	烏白	NOUN	NN	_	5	compound	_	start_char=3|end_char=5|SpaceAfter=No
+5	食	食	PART	SFN	_	3	obj	_	start_char=5|end_char=6|SpaceAfter=No
+6	，	，	PUNCT	,	_	5	punct	_	start_char=6|end_char=7|SpaceAfter=No
+7	話	話	NOUN	NN	_	11	nsubj	_	start_char=7|end_char=8|SpaceAfter=No
+8	毋	毋	AUX	MD	_	11	aux	_	start_char=8|end_char=9|SpaceAfter=No
+9	通	通	VERB	VV	_	11	advcl	_	start_char=9|end_char=10|SpaceAfter=No
+10	烏白	烏白	NOUN	NN	_	9	obj	_	start_char=10|end_char=12|SpaceAfter=No
+11	講	講	VERB	VV	_	3	ccomp	_	start_char=12|end_char=13|SpaceAfter=No
+12	！	！	PUNCT	.	_	3	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 8
+# text = 無試看覓哪會知。
+1	無	無	VERB	VV	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+2	試	試	VERB	VV	_	1	xcomp	_	start_char=1|end_char=2|SpaceAfter=No
+3	看	看	VERB	VV	_	1	xcomp	_	start_char=2|end_char=3|SpaceAfter=No
+4	覓	覓	VERB	VV	_	3	mark	_	start_char=3|end_char=4|SpaceAfter=No
+5	哪	哪	PRON	WP	_	7	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+6	會	會	AUX	MD	_	7	aux	_	start_char=5|end_char=6|SpaceAfter=No
+7	知	知	VERB	VV	_	3	conj	_	start_char=6|end_char=7|SpaceAfter=No
+8	。	。	PUNCT	.	_	1	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 9
+# text = 空喙閣流血矣，足疼的。
+1	空喙閣	空喙閣	NOUN	NN	_	2	nmod	_	start_char=0|end_char=3|SpaceAfter=No
+2	流血	流血	NOUN	NN	_	3	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+3	矣	矣	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+4	，	，	PUNCT	,	_	5	punct	_	start_char=6|end_char=7|SpaceAfter=No
+5	足疼	足疼	VERB	VV	_	3	conj	_	start_char=7|end_char=9|SpaceAfter=No
+6	的	的	PART	UH	_	3	discourse	_	start_char=9|end_char=10|SpaceAfter=No
+7	。	。	PUNCT	.	_	3	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 10
+# text = 我細漢佮阿媽蹛，伊足疼我的。
+1	我	我	PRON	PRP	Person=1	2	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	細漢	細漢	NOUN	NN	_	3	nsubj	_	start_char=1|end_char=3|SpaceAfter=No
+3	佮	佮	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	阿媽蹛	阿媽蹛	PROPN	NNP	_	3	obj	_	start_char=4|end_char=7|SpaceAfter=No
+5	，	，	PUNCT	,	_	7	punct	_	start_char=7|end_char=8|SpaceAfter=No
+6	伊足疼	伊足疼	PROPN	NNP	_	7	nsubj	_	start_char=8|end_char=11|SpaceAfter=No
+7	我	我	PRON	PRP	Person=1	3	parataxis	_	start_char=11|end_char=12|SpaceAfter=No
+8	的	的	PART	UH	_	3	discourse	_	start_char=12|end_char=13|SpaceAfter=No
+9	。	。	PUNCT	.	_	3	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 11
+# text = 跤手尾冷吱吱。
+1	跤	跤	NOUN	NN	_	2	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	手尾	手尾	NOUN	NN	_	5	nsubj	_	start_char=1|end_char=3|SpaceAfter=No
+3	冷	冷	VERB	VV	_	5	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+4	吱	吱	NOUN	NN	_	3	obj	_	start_char=4|end_char=5|SpaceAfter=No
+5	吱	吱	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	。	。	PUNCT	.	_	5	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 12
+# text = 講話愛較細聲咧，才袂吵著別人。
+1	講話	講話	VERB	VV	_	9	csubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	愛	愛	VERB	VV	_	9	advcl	_	start_char=2|end_char=3|SpaceAfter=No
+3	較	較	ADV	RB	_	4	advmod	_	start_char=3|end_char=4|SpaceAfter=No
+4	細聲	細聲	ADJ	JJ	_	2	xcomp	_	start_char=4|end_char=6|SpaceAfter=No
+5	咧	咧	PART	UH	_	2	discourse	_	start_char=6|end_char=7|SpaceAfter=No
+6	，	，	PUNCT	,	_	2	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	才	才	SCONJ	RB	_	9	mark	_	start_char=8|end_char=9|SpaceAfter=No
+8	袂	袂	AUX	MD	_	9	aux	_	start_char=9|end_char=10|SpaceAfter=No
+9	吵	吵	VERB	VV	_	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+10	著	著	AUX	AS	Aspect=Prog	9	aux	_	start_char=11|end_char=12|SpaceAfter=No
+11	別人	別人	PRON	PRD	_	9	obj	_	start_char=12|end_char=14|SpaceAfter=No
+12	。	。	PUNCT	.	_	9	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 13
+# text = 外口一陣人喝甲大細聲，毋知出啥物代誌？
+1	外口	外口	NOUN	NN	_	4	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	一	一	NUM	CD	NumType=Card	4	nummod	_	start_char=2|end_char=3|SpaceAfter=No
+3	陣	陣	NOUN	NNB	_	2	clf	_	start_char=3|end_char=4|SpaceAfter=No
+4	人	人	NOUN	NN	_	11	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	喝	喝	VERB	VV	_	11	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+6	甲	甲	NUM	CD	NumType=Card	8	nummod	_	start_char=6|end_char=7|SpaceAfter=No
+7	大	大	ADJ	JJ	_	8	amod	_	start_char=7|end_char=8|SpaceAfter=No
+8	細聲	細聲	NOUN	NN	_	5	obj	_	start_char=8|end_char=10|SpaceAfter=No
+9	，	，	PUNCT	,	_	5	punct	_	start_char=10|end_char=11|SpaceAfter=No
+10	毋	毋	AUX	MD	_	11	aux	_	start_char=11|end_char=12|SpaceAfter=No
+11	知出	知出	VERB	VV	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+12	啥物	啥物	NOUN	NN	_	13	nmod	_	start_char=14|end_char=16|SpaceAfter=No
+13	代誌	代誌	NOUN	NN	_	11	obj	_	start_char=16|end_char=18|SpaceAfter=No
+14	？	？	PUNCT	.	_	11	punct	_	start_char=18|end_char=19|SpaceAfter=No
+
+# sent_id = 14
+# text = 明仔載的代誌明仔載才閣講。
+1	明仔	明仔	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	載	載	VERB	VV	_	4	acl:relcl	_	start_char=2|end_char=3|SpaceAfter=No
+3	的	的	SCONJ	DEC	_	2	mark:rel	_	start_char=3|end_char=4|SpaceAfter=No
+4	代誌	代誌	NOUN	NN	_	6	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+5	明仔	明仔	PROPN	NNP	_	4	appos	_	start_char=6|end_char=8|SpaceAfter=No
+6	載	載	VERB	VV	_	0	root	_	start_char=8|end_char=9|SpaceAfter=No
+7	才	才	SCONJ	RB	_	9	mark	_	start_char=9|end_char=10|SpaceAfter=No
+8	閣	閣	VERB	VV	_	9	advcl	_	start_char=10|end_char=11|SpaceAfter=No
+9	講	講	VERB	VV	_	6	xcomp	_	start_char=11|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	6	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 15
+# text = 我共你講。
+1	我共	我共	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	你	你	PRON	PRP	Person=2	3	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	講	講	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	。	。	PUNCT	.	_	3	punct	_	start_char=4|end_char=5|SpaceAfter=No
+
+# sent_id = 16
+# text = 你敢有需要人共你鬥相共？
+1	你敢	你敢	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	有	有	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	需要	需要	VERB	VV	_	4	compound	_	start_char=3|end_char=5|SpaceAfter=No
+4	人	人	PART	SFN	_	6	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+5	共	共	ADV	RB	_	6	advmod	_	start_char=6|end_char=7|SpaceAfter=No
+6	你鬥	你鬥	VERB	VV	_	2	ccomp	_	start_char=7|end_char=9|SpaceAfter=No
+7	相共	相共	VERB	VV	_	6	xcomp	_	start_char=9|end_char=11|SpaceAfter=No
+8	？	？	PUNCT	.	_	2	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 17
+# text = 最近的天氣誠翕熱。
+1	最近	最近	NOUN	NN	_	4	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	start_char=2|end_char=3|SpaceAfter=No
+3	天氣	天氣	NOUN	NN	_	4	nmod	_	start_char=3|end_char=5|SpaceAfter=No
+4	誠翕	誠翕	NOUN	NN	_	5	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+5	熱	熱	ADJ	JJ	_	0	root	_	start_char=7|end_char=8|SpaceAfter=No
+6	。	。	PUNCT	.	_	5	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 18
+# text = 外口咧落雨，等雨停才來去。
+1	外口咧落雨	外口咧落雨	VERB	VV	_	7	nsubj	_	start_char=0|end_char=5|SpaceAfter=No
+2	，	，	PUNCT	,	_	1	punct	_	start_char=5|end_char=6|SpaceAfter=No
+3	等	等	NOUN	NN	_	1	obl	_	start_char=6|end_char=7|SpaceAfter=No
+4	雨停	雨停	NOUN	NN	_	1	appos	_	start_char=7|end_char=9|SpaceAfter=No
+5	才	才	SCONJ	RB	_	7	mark	_	start_char=9|end_char=10|SpaceAfter=No
+6	來	來	SCONJ	RB	_	7	mark	_	start_char=10|end_char=11|SpaceAfter=No
+7	去	去	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+8	。	。	PUNCT	.	_	7	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 19
+# text = 浸溫泉起來，規身軀燒唿唿。
+1	浸	浸	PROPN	NNP	_	2	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	溫泉	溫泉	NOUN	NN	_	5	nsubj	_	start_char=1|end_char=3|SpaceAfter=No
+3	起來	起來	VERB	VV	_	5	advcl	_	start_char=3|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	規	規	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+6	身軀	身軀	NOUN	NN	_	7	compound	_	start_char=7|end_char=9|SpaceAfter=No
+7	燒	燒	PART	SFN	_	5	obj	_	start_char=9|end_char=10|SpaceAfter=No
+8	唿	唿	VERB	VV	_	5	ccomp	_	start_char=10|end_char=11|SpaceAfter=No
+9	唿	唿	NOUN	NN	_	8	obj	_	start_char=11|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	8	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 20
+# text = 人咧做，天咧看。
+1	人咧	人咧	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	做	做	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	，	，	PUNCT	,	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No
+4	天咧	天咧	NOUN	NN	_	5	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+5	看	看	VERB	VV	_	2	parataxis	_	start_char=6|end_char=7|SpaceAfter=No
+6	。	。	PUNCT	.	_	2	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 21
+# text = 你的正手爿有一本冊，提過來予我好無？
+1	你	你	PRON	PRP	Person=2	4	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	正手	正手	NOUN	NN	_	4	compound	_	start_char=2|end_char=4|SpaceAfter=No
+4	爿	爿	PART	SFN	_	12	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	有	有	VERB	VV	_	12	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+6	一	一	NUM	CD	NumType=Card	8	nummod	_	start_char=6|end_char=7|SpaceAfter=No
+7	本	本	NOUN	NNB	_	6	clf	_	start_char=7|end_char=8|SpaceAfter=No
+8	冊	冊	NOUN	NN	_	5	obj	_	start_char=8|end_char=9|SpaceAfter=No
+9	，	，	PUNCT	,	_	5	punct	_	start_char=9|end_char=10|SpaceAfter=No
+10	提	提	VERB	VV	_	12	advcl	_	start_char=10|end_char=11|SpaceAfter=No
+11	過來	過來	VERB	VV	_	10	mark	_	start_char=11|end_char=13|SpaceAfter=No
+12	予	予	VERB	VV	_	0	root	_	start_char=13|end_char=14|SpaceAfter=No
+13	我	我	PRON	PRP	Person=1	15	nsubj	_	start_char=14|end_char=15|SpaceAfter=No
+14	好	好	ADJ	JJ	_	15	advcl	_	start_char=15|end_char=16|SpaceAfter=No
+15	無	無	VERB	VV	_	12	ccomp	_	start_char=16|end_char=17|SpaceAfter=No
+16	？	？	PUNCT	.	_	12	punct	_	start_char=17|end_char=18|SpaceAfter=No
+
+# sent_id = 22
+# text = 頭前路口斡正爿就到矣。
+1	頭前	頭前	NOUN	NN	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	路口	路口	NOUN	NN	_	3	compound	_	start_char=2|end_char=4|SpaceAfter=No
+3	斡	斡	PART	SFN	_	7	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+4	正	正	ADV	RB	_	5	advmod	_	start_char=5|end_char=6|SpaceAfter=No
+5	爿	爿	NOUN	NN	_	7	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	就	就	SCONJ	RB	_	7	mark	_	start_char=7|end_char=8|SpaceAfter=No
+7	到	到	VERB	VV	_	0	root	_	start_char=8|end_char=9|SpaceAfter=No
+8	矣	矣	VERB	VV	_	7	xcomp	_	start_char=9|end_char=10|SpaceAfter=No
+9	。	。	PUNCT	.	_	7	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 23
+# text = 你欲揣的彼間厝佇倒手爿。
+1	你	你	PRON	PRP	Person=2	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	欲	欲	AUX	MD	_	3	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	揣	揣	VERB	VV	_	6	acl:relcl	_	start_char=2|end_char=3|SpaceAfter=No
+4	的	的	SCONJ	DEC	_	3	mark:rel	_	start_char=3|end_char=4|SpaceAfter=No
+5	彼間	彼間	NOUN	NN	_	6	compound	_	start_char=4|end_char=6|SpaceAfter=No
+6	厝	厝	PART	SFN	_	7	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+7	佇	佇	VERB	VV	_	0	root	_	start_char=7|end_char=8|SpaceAfter=No
+8	倒手	倒手	NOUN	NN	_	9	compound	_	start_char=8|end_char=10|SpaceAfter=No
+9	爿	爿	PART	SFN	_	7	obj	_	start_char=10|end_char=11|SpaceAfter=No
+10	。	。	PUNCT	.	_	7	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 24
+# text = 伊煮的物件真歹食。
+1	伊煮	伊煮	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	start_char=2|end_char=3|SpaceAfter=No
+3	物件	物件	NOUN	NN	_	5	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+4	真歹	真歹	ADV	RB	_	5	advmod	_	start_char=5|end_char=7|SpaceAfter=No
+5	食	食	NOUN	NN	_	0	root	_	start_char=7|end_char=8|SpaceAfter=No
+6	。	。	PUNCT	.	_	5	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 25
+# text = 這鰇魚仔絲是愈食愈紲喙。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	鰇魚仔絲	鰇魚仔絲	PROPN	NNP	_	7	nsubj	_	start_char=1|end_char=5|SpaceAfter=No
+3	是	是	AUX	VC	_	7	cop	_	start_char=5|end_char=6|SpaceAfter=No
+4	愈	愈	ADV	RB	_	7	advmod	_	start_char=6|end_char=7|SpaceAfter=No
+5	食	食	NOUN	NN	_	7	nsubj	_	start_char=7|end_char=8|SpaceAfter=No
+6	愈	愈	ADV	RB	_	7	advmod	_	start_char=8|end_char=9|SpaceAfter=No
+7	紲	紲	VERB	VV	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+8	喙	喙	NOUN	NN	_	7	obj	_	start_char=10|end_char=11|SpaceAfter=No
+9	。	。	PUNCT	.	_	7	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 26
+# text = 你規工按呢踅踅唸，敢袂喙焦？
+1	你	你	PRON	PRP	Person=2	2	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	規工	規工	NOUN	NN	_	9	nsubj	_	start_char=1|end_char=3|SpaceAfter=No
+3	按	按	ADP	IN	_	4	case	_	start_char=3|end_char=4|SpaceAfter=No
+4	呢	呢	PRON	WP	_	7	obl	_	start_char=4|end_char=5|SpaceAfter=No
+5	踅	踅	VERB	VV	_	7	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+6	踅	踅	SCONJ	RB	_	7	mark	_	start_char=6|end_char=7|SpaceAfter=No
+7	唸	唸	VERB	VV	_	9	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+8	，	，	PUNCT	,	_	7	punct	_	start_char=8|end_char=9|SpaceAfter=No
+9	敢袂喙焦	敢袂喙焦	VERB	VV	_	0	root	_	start_char=9|end_char=13|SpaceAfter=No
+10	？	？	PUNCT	.	_	9	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 27
+# text = 伊走無去矣。
+1	伊走	伊走	VERB	VV	_	2	csubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	無	無	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	去	去	SCONJ	RB	_	4	mark	_	start_char=3|end_char=4|SpaceAfter=No
+4	矣	矣	VERB	VV	_	2	xcomp	_	start_char=4|end_char=5|SpaceAfter=No
+5	。	。	PUNCT	.	_	1	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 28
+# text = 伊才走無偌久。
+1	伊	伊	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	才	才	SCONJ	RB	_	3	mark	_	start_char=1|end_char=2|SpaceAfter=No
+3	走	走	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+4	無	無	VERB	VV	_	3	xcomp	_	start_char=3|end_char=4|SpaceAfter=No
+5	偌	偌	NOUN	NN	_	6	nmod	_	start_char=4|end_char=5|SpaceAfter=No
+6	久	久	NOUN	NN	_	4	obj	_	start_char=5|end_char=6|SpaceAfter=No
+7	。	。	PUNCT	.	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 29
+# text = 彼个查某囡仔真媠。
+1	彼个查	彼个查	NOUN	NN	_	4	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	某	某	DET	DT	_	4	det	_	start_char=3|end_char=4|SpaceAfter=No
+3	囡仔	囡仔	PROPN	NNP	_	4	nmod	_	start_char=4|end_char=6|SpaceAfter=No
+4	真媠	真媠	NOUN	NN	_	0	root	_	start_char=6|end_char=8|SpaceAfter=No
+5	。	。	PUNCT	.	_	4	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 30
+# text = 囡仔人咧講的囡仔話，聽著真古錐。
+1	囡仔	囡仔	PROPN	NNP	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	人	人	PART	SFN	_	4	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	咧	咧	AUX	MD	_	4	aux	_	start_char=3|end_char=4|SpaceAfter=No
+4	講	講	VERB	VV	_	7	acl:relcl	_	start_char=4|end_char=5|SpaceAfter=No
+5	的	的	SCONJ	DEC	_	4	mark:rel	_	start_char=5|end_char=6|SpaceAfter=No
+6	囡仔	囡仔	PROPN	NNP	_	7	compound	_	start_char=6|end_char=8|SpaceAfter=No
+7	話	話	PART	SFN	_	9	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+8	，	，	PUNCT	,	_	7	punct	_	start_char=9|end_char=10|SpaceAfter=No
+9	聽	聽	VERB	VV	_	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+10	著	著	AUX	AS	Aspect=Prog	9	aux	_	start_char=11|end_char=12|SpaceAfter=No
+11	真古	真古	ADJ	JJ	_	12	compound	_	start_char=12|end_char=14|SpaceAfter=No
+12	錐	錐	PART	SFN	_	9	obj	_	start_char=14|end_char=15|SpaceAfter=No
+13	。	。	PUNCT	.	_	9	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 31
+# text = 番薯囥咧予伊收水了後，食著較甜。
+1	番	番	NOUN	NN	_	2	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	薯	薯	NOUN	NN	_	10	nsubj	_	start_char=1|end_char=2|SpaceAfter=No
+3	囥	囥	ADP	IN	_	5	case	_	start_char=2|end_char=3|SpaceAfter=No
+4	咧予	咧予	PROPN	NNP	_	5	compound	_	start_char=3|end_char=5|SpaceAfter=No
+5	伊	伊	PART	SFN	_	6	obl	_	start_char=5|end_char=6|SpaceAfter=No
+6	收水	收水	VERB	VV	_	10	advcl	_	start_char=6|end_char=8|SpaceAfter=No
+7	了	了	AUX	AS	Aspect=Perf	6	aux	_	start_char=8|end_char=9|SpaceAfter=No
+8	後	後	ADP	IN	_	6	mark	_	start_char=9|end_char=10|SpaceAfter=No
+9	，	，	PUNCT	,	_	6	punct	_	start_char=10|end_char=11|SpaceAfter=No
+10	食	食	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+11	著	著	AUX	AS	Aspect=Prog	10	aux	_	start_char=12|end_char=13|SpaceAfter=No
+12	較甜	較甜	ADJ	JJ	_	10	xcomp	_	start_char=13|end_char=15|SpaceAfter=No
+13	。	。	PUNCT	.	_	10	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 32
+# text = 阿明中晝食歹腹肚，所以下晡就請假轉去。
+1	阿明中	阿明中	PROPN	NNP	_	12	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	晝	晝	VERB	VV	_	4	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+3	食	食	NOUN	NN	_	2	obj	_	start_char=4|end_char=5|SpaceAfter=No
+4	歹	歹	VERB	VV	_	12	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+5	腹肚	腹肚	NOUN	NN	_	4	obj	_	start_char=6|end_char=8|SpaceAfter=No
+6	，	，	PUNCT	,	_	4	punct	_	start_char=8|end_char=9|SpaceAfter=No
+7	所以	所以	SCONJ	RB	_	12	mark	_	start_char=9|end_char=11|SpaceAfter=No
+8	下	下	NOUN	NN	_	9	nmod	_	start_char=11|end_char=12|SpaceAfter=No
+9	晡	晡	NOUN	NN	_	12	nsubj	_	start_char=12|end_char=13|SpaceAfter=No
+10	就	就	SCONJ	RB	_	12	mark	_	start_char=13|end_char=14|SpaceAfter=No
+11	請假	請假	VERB	VV	_	12	advcl	_	start_char=14|end_char=16|SpaceAfter=No
+12	轉	轉	VERB	VV	_	0	root	_	start_char=16|end_char=17|SpaceAfter=No
+13	去	去	VERB	VV	_	12	mark	_	start_char=17|end_char=18|SpaceAfter=No
+14	。	。	PUNCT	.	_	12	punct	_	start_char=18|end_char=19|SpaceAfter=No
+
+# sent_id = 33
+# text = 我猶未食飯。
+1	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	猶未	猶未	ADV	RB	_	3	advmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	食飯	食飯	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	。	。	PUNCT	.	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 34
+# text = 我中晝食飽就愛睏。
+1	我	我	PRON	PRP	Person=1	6	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	中	中	NOUN	NN	_	1	acl	_	start_char=1|end_char=2|SpaceAfter=No
+3	晝	晝	VERB	VV	_	6	advcl	_	start_char=2|end_char=3|SpaceAfter=No
+4	食飽	食飽	VERB	VV	_	3	xcomp	_	start_char=3|end_char=5|SpaceAfter=No
+5	就	就	SCONJ	RB	_	6	mark	_	start_char=5|end_char=6|SpaceAfter=No
+6	愛	愛	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+7	睏	睏	ADJ	JJ	_	6	xcomp	_	start_char=7|end_char=8|SpaceAfter=No
+8	。	。	PUNCT	.	_	6	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 35
+# text = 我會共代誌交予伊做，是因為我信任伊。
+1	我	我	PRON	PRP	Person=1	9	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	會	會	AUX	MD	_	5	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	共代	共代	VERB	VV	_	4	compound	_	start_char=2|end_char=4|SpaceAfter=No
+4	誌	誌	PART	SFN	_	9	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	交予	交予	VERB	VV	_	9	advcl	_	start_char=5|end_char=7|SpaceAfter=No
+6	伊	伊	PROPN	NNP	_	5	obj	_	start_char=7|end_char=8|SpaceAfter=No
+7	做	做	VERB	VV	_	5	ccomp	_	start_char=8|end_char=9|SpaceAfter=No
+8	，	，	PUNCT	,	_	5	punct	_	start_char=9|end_char=10|SpaceAfter=No
+9	是	是	VERB	VC	_	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+10	因為	因為	ADP	IN	_	9	xcomp	_	start_char=11|end_char=13|SpaceAfter=No
+11	我	我	PRON	PRP	Person=1	12	nsubj	_	start_char=13|end_char=14|SpaceAfter=No
+12	信任	信任	VERB	VV	_	10	ccomp	_	start_char=14|end_char=16|SpaceAfter=No
+13	伊	伊	PROPN	NNP	_	12	obj	_	start_char=16|end_char=17|SpaceAfter=No
+14	。	。	PUNCT	.	_	9	punct	_	start_char=17|end_char=18|SpaceAfter=No
+
+# sent_id = 36
+# text = 這領衫真媠，但是我無佮意。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	領衫	領衫	NOUN	NN	_	3	nsubj	_	start_char=1|end_char=3|SpaceAfter=No
+3	真媠	真媠	ADJ	JJ	_	7	advcl	_	start_char=3|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	但是	但是	SCONJ	RB	_	7	mark	_	start_char=6|end_char=8|SpaceAfter=No
+6	我	我	PRON	PRP	Person=1	7	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+7	無	無	VERB	VV	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+8	佮意	佮意	NOUN	NN	_	7	obj	_	start_char=10|end_char=12|SpaceAfter=No
+9	。	。	PUNCT	.	_	7	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 37
+# text = 逐家攏是家己人，就莫計較遐濟矣。
+1	逐家	逐家	NOUN	NN	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	攏	攏	PART	SFN	_	8	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	是	是	AUX	VC	_	5	cop	_	start_char=3|end_char=4|SpaceAfter=No
+4	家己	家己	PROPN	NNP	_	5	compound	_	start_char=4|end_char=6|SpaceAfter=No
+5	人	人	PART	SFN	_	8	advcl	_	start_char=6|end_char=7|SpaceAfter=No
+6	，	，	PUNCT	,	_	5	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	就	就	SCONJ	RB	_	8	mark	_	start_char=8|end_char=9|SpaceAfter=No
+8	莫計	莫計	VERB	VV	_	0	root	_	start_char=9|end_char=11|SpaceAfter=No
+9	較遐	較遐	ADJ	JJ	_	8	xcomp	_	start_char=11|end_char=13|SpaceAfter=No
+10	濟矣	濟矣	PROPN	NNP	_	8	obj	_	start_char=13|end_char=15|SpaceAfter=No
+11	。	。	PUNCT	.	_	8	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 38
+# text = 我逐工騎跤踏車運動。
+1	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	逐工	逐工	ADV	RB	_	3	advmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	騎跤	騎跤	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	踏車	踏車	NOUN	NN	_	5	nmod	_	start_char=5|end_char=7|SpaceAfter=No
+5	運動	運動	NOUN	NN	_	3	obj	_	start_char=7|end_char=9|SpaceAfter=No
+6	。	。	PUNCT	.	_	3	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 39
+# text = 你順路送伊轉去。
+1	你	你	PRON	PRP	Person=2	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	順	順	ADV	RB	_	3	advmod	_	start_char=1|end_char=2|SpaceAfter=No
+3	路送	路送	VERB	VV	_	0	root	_	start_char=2|end_char=4|SpaceAfter=No
+4	伊轉	伊轉	VERB	VV	_	5	advcl	_	start_char=4|end_char=6|SpaceAfter=No
+5	去	去	VERB	VV	_	3	xcomp	_	start_char=6|end_char=7|SpaceAfter=No
+6	。	。	PUNCT	.	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 40
+# text = 你當時欲轉來？
+1	你	你	PRON	PRP	Person=2	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	當時	當時	NOUN	NN	_	4	nmod:tmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	欲	欲	AUX	MD	_	4	aux	_	start_char=3|end_char=4|SpaceAfter=No
+4	轉來	轉來	VERB	VV	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+5	？	？	PUNCT	.	_	4	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 41
+# text = 這擺欲替伊開刀的醫生攏是一粒一的。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	擺	擺	NOUN	NN	_	9	nsubj	_	start_char=1|end_char=2|SpaceAfter=No
+3	欲	欲	AUX	MD	_	9	aux	_	start_char=2|end_char=3|SpaceAfter=No
+4	替	替	VERB	VV	_	9	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+5	伊開	伊開	VERB	VV	_	6	compound	_	start_char=4|end_char=6|SpaceAfter=No
+6	刀	刀	PART	SFN	_	8	nmod	_	start_char=6|end_char=7|SpaceAfter=No
+7	的	的	PART	DEC	Case=Gen	6	case	_	start_char=7|end_char=8|SpaceAfter=No
+8	醫生	醫生	NOUN	NN	_	4	obj	_	start_char=8|end_char=10|SpaceAfter=No
+9	攏	攏	VERB	VV	_	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+10	是	是	AUX	VC	_	13	cop	_	start_char=11|end_char=12|SpaceAfter=No
+11	一	一	NUM	CD	NumType=Card	12	nummod	_	start_char=12|end_char=13|SpaceAfter=No
+12	粒	粒	NOUN	NN	_	13	nmod	_	start_char=13|end_char=14|SpaceAfter=No
+13	一	一	NUM	CD	NumType=Card	9	xcomp	_	start_char=14|end_char=15|SpaceAfter=No
+14	的	的	PART	UH	_	13	discourse	_	start_char=15|end_char=16|SpaceAfter=No
+15	。	。	PUNCT	.	_	9	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 42
+# text = 我欲出國的時，真濟朋友攏來相送。
+1	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	欲	欲	AUX	MD	_	3	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	出國	出國	VERB	VV	_	9	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+4	的	的	SCONJ	DEC	_	3	mark:rel	_	start_char=4|end_char=5|SpaceAfter=No
+5	時	時	ADP	IN	_	3	mark	_	start_char=5|end_char=6|SpaceAfter=No
+6	，	，	PUNCT	,	_	9	punct	_	start_char=6|end_char=7|SpaceAfter=No
+7	真濟	真濟	NOUN	NN	_	8	nmod	_	start_char=7|end_char=9|SpaceAfter=No
+8	朋友	朋友	NOUN	NN	_	9	nsubj	_	start_char=9|end_char=11|SpaceAfter=No
+9	攏	攏	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+10	來	來	SCONJ	RB	_	11	mark	_	start_char=12|end_char=13|SpaceAfter=No
+11	相送	相送	VERB	VV	_	9	xcomp	_	start_char=13|end_char=15|SpaceAfter=No
+12	。	。	PUNCT	.	_	9	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 43
+# text = 阮這陣兄弟已經熟似十幾冬矣。
+1	阮	阮	PROPN	NNP	_	4	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	這	這	DET	DT	_	3	det	_	start_char=1|end_char=2|SpaceAfter=No
+3	陣	陣	NOUN	NNB	_	4	clf	_	start_char=2|end_char=3|SpaceAfter=No
+4	兄弟	兄弟	NOUN	NN	_	6	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+5	已經	已經	ADV	RB	_	6	advmod	_	start_char=5|end_char=7|SpaceAfter=No
+6	熟似	熟似	VERB	VV	_	0	root	_	start_char=7|end_char=9|SpaceAfter=No
+7	十	十	NUM	CD	NumType=Card	9	nummod	_	start_char=9|end_char=10|SpaceAfter=No
+8	幾	幾	NUM	CD	NumType=Card	9	nummod	_	start_char=10|end_char=11|SpaceAfter=No
+9	冬矣	冬矣	NOUN	NN	_	6	obj	_	start_char=11|end_char=13|SpaceAfter=No
+10	。	。	PUNCT	.	_	6	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 44
+# text = 我若講伊幾句仔伊就無歡喜。
+1	我	我	PRON	PRP	Person=1	9	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	若	若	ADP	IN	_	3	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	講	講	VERB	VV	_	9	xcomp	_	start_char=2|end_char=3|SpaceAfter=No
+4	伊	伊	PROPN	NNP	_	3	obj	_	start_char=3|end_char=4|SpaceAfter=No
+5	幾	幾	NUM	CD	NumType=Card	6	nummod	_	start_char=4|end_char=5|SpaceAfter=No
+6	句	句	NOUN	NNB	_	3	obj	_	start_char=5|end_char=6|SpaceAfter=No
+7	仔伊	仔伊	PROPN	NNP	_	3	obj	_	start_char=6|end_char=8|SpaceAfter=No
+8	就	就	SCONJ	RB	_	9	mark	_	start_char=8|end_char=9|SpaceAfter=No
+9	無	無	VERB	VV	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+10	歡喜	歡喜	NOUN	NN	_	9	obj	_	start_char=10|end_char=12|SpaceAfter=No
+11	。	。	PUNCT	.	_	9	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 45
+# text = 欲起厝愛有政府許可。
+1	欲	欲	AUX	MD	_	4	aux	_	start_char=0|end_char=1|SpaceAfter=No
+2	起	起	VERB	VV	_	4	advcl	_	start_char=1|end_char=2|SpaceAfter=No
+3	厝	厝	PROPN	NNP	_	2	obj	_	start_char=2|end_char=3|SpaceAfter=No
+4	愛	愛	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+5	有	有	VERB	VV	_	4	xcomp	_	start_char=4|end_char=5|SpaceAfter=No
+6	政府	政府	NOUN	NN	_	7	nmod	_	start_char=5|end_char=7|SpaceAfter=No
+7	許可	許可	NOUN	NN	_	5	obj	_	start_char=7|end_char=9|SpaceAfter=No
+8	。	。	PUNCT	.	_	4	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 46
+# text = 伊做人的風聲袂䆀。
+1	伊做	伊做	PROPN	NNP	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	人	人	PART	SFN	_	5	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	的	的	PART	DEC	Case=Gen	2	case	_	start_char=3|end_char=4|SpaceAfter=No
+4	風聲	風聲	NOUN	NN	_	5	compound	_	start_char=4|end_char=6|SpaceAfter=No
+5	袂	袂	PART	SFN	_	6	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	䆀	䆀	VERB	VV	_	0	root	_	start_char=7|end_char=8|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 47
+# text = 我今仔日足忝的！規身軀軟𩛩𩛩。
+1	我	我	PRON	PRP	Person=1	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	今仔	今仔	PROPN	NNP	_	4	nsubj	_	start_char=1|end_char=3|SpaceAfter=No
+3	日	日	PROPN	NNP	_	4	nsubj	_	start_char=3|end_char=4|SpaceAfter=No
+4	足忝	足忝	VERB	VV	_	7	acl:relcl	_	start_char=4|end_char=6|SpaceAfter=No
+5	的	的	SCONJ	DEC	_	4	mark:rel	_	start_char=6|end_char=7|SpaceAfter=No
+6	！規	！規	NOUN	NN	_	7	nmod	_	start_char=7|end_char=9|SpaceAfter=No
+7	身軀	身軀	NOUN	NN	_	9	nsubj	_	start_char=9|end_char=11|SpaceAfter=No
+8	軟𩛩	軟𩛩	ADV	RB	_	9	advmod	_	start_char=11|end_char=13|SpaceAfter=No
+9	𩛩	𩛩	VERB	VV	_	0	root	_	start_char=13|end_char=14|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 48
+# text = 𪜶兜今仔日鬧熱滾滾，規家伙仔閣穿甲媠噹噹，毋知有啥物喜事？
+1	𪜶兜	𪜶兜	VERB	VV	_	5	advcl	_	start_char=0|end_char=2|SpaceAfter=No
+2	今仔	今仔	NOUN	NN	_	4	nmod	_	start_char=2|end_char=4|SpaceAfter=No
+3	日	日	PROPN	NNP	_	4	nmod	_	start_char=4|end_char=5|SpaceAfter=No
+4	鬧熱	鬧熱	NOUN	NN	_	5	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+5	滾滾	滾滾	VERB	VV	_	0	root	_	start_char=7|end_char=9|SpaceAfter=No
+6	，	，	PUNCT	,	_	11	punct	_	start_char=9|end_char=10|SpaceAfter=No
+7	規家	規家	NOUN	NN	_	9	nmod	_	start_char=10|end_char=12|SpaceAfter=No
+8	伙仔	伙仔	NOUN	NN	_	9	compound	_	start_char=12|end_char=14|SpaceAfter=No
+9	閣	閣	PART	SFN	_	11	nsubj	_	start_char=14|end_char=15|SpaceAfter=No
+10	穿甲	穿甲	VERB	VV	_	11	advcl	_	start_char=15|end_char=17|SpaceAfter=No
+11	媠	媠	VERB	VV	_	16	advcl	_	start_char=17|end_char=18|SpaceAfter=No
+12	噹	噹	PROPN	NNP	_	13	nmod	_	start_char=18|end_char=19|SpaceAfter=No
+13	噹	噹	NOUN	NN	_	11	obj	_	start_char=19|end_char=20|SpaceAfter=No
+14	，	，	PUNCT	,	_	11	punct	_	start_char=20|end_char=21|SpaceAfter=No
+15	毋	毋	AUX	MD	_	16	aux	_	start_char=21|end_char=22|SpaceAfter=No
+16	知	知	VERB	VV	_	5	parataxis	_	start_char=22|end_char=23|SpaceAfter=No
+17	有	有	VERB	VV	_	16	xcomp	_	start_char=23|end_char=24|SpaceAfter=No
+18	啥物	啥物	NOUN	NN	_	19	nmod	_	start_char=24|end_char=26|SpaceAfter=No
+19	喜事	喜事	NOUN	NN	_	17	obj	_	start_char=26|end_char=28|SpaceAfter=No
+20	？	？	PUNCT	.	_	16	punct	_	start_char=28|end_char=29|SpaceAfter=No
+
+# sent_id = 49
+# text = 今仔日有人客欲來，你愛準備六塊飯碗才有夠。
+1	今仔	今仔	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	日	日	PROPN	NNP	_	1	flat:name	_	start_char=2|end_char=3|SpaceAfter=No
+3	有	有	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	人客	人客	NOUN	NN	_	6	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+5	欲	欲	AUX	MD	_	6	aux	_	start_char=6|end_char=7|SpaceAfter=No
+6	來	來	VERB	VV	_	3	ccomp	_	start_char=7|end_char=8|SpaceAfter=No
+7	，	，	PUNCT	,	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No
+8	你	你	PRON	PRP	Person=2	15	nsubj	_	start_char=9|end_char=10|SpaceAfter=No
+9	愛	愛	VERB	VV	_	15	advcl	_	start_char=10|end_char=11|SpaceAfter=No
+10	準備	準備	VERB	VV	_	9	xcomp	_	start_char=11|end_char=13|SpaceAfter=No
+11	六	六	NUM	CD	NumType=Card	13	nummod	_	start_char=13|end_char=14|SpaceAfter=No
+12	塊	塊	NOUN	NNB	_	11	clf	_	start_char=14|end_char=15|SpaceAfter=No
+13	飯碗	飯碗	NOUN	NN	_	10	obj	_	start_char=15|end_char=17|SpaceAfter=No
+14	才	才	SCONJ	RB	_	15	mark	_	start_char=17|end_char=18|SpaceAfter=No
+15	有夠	有夠	ADJ	JJ	_	3	parataxis	_	start_char=18|end_char=20|SpaceAfter=No
+16	。	。	PUNCT	.	_	3	punct	_	start_char=20|end_char=21|SpaceAfter=No
+
+# sent_id = 50
+# text = 阿母去肉砧買豬肉。
+1	阿母	阿母	PROPN	NNP	_	5	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	去	去	VERB	VV	_	5	advcl	_	start_char=2|end_char=3|SpaceAfter=No
+3	肉	肉	NOUN	NN	_	4	nmod	_	start_char=3|end_char=4|SpaceAfter=No
+4	砧	砧	NOUN	NN	_	2	obj	_	start_char=4|end_char=5|SpaceAfter=No
+5	買	買	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	豬肉	豬肉	NOUN	NN	_	5	obj	_	start_char=6|end_char=8|SpaceAfter=No
+7	。	。	PUNCT	.	_	5	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 51
+# text = 目睭擘開就看著伊矣。
+1	目睭	目睭	NOUN	NN	_	5	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	擘	擘	NUM	CD	NumType=Card	3	nummod	_	start_char=2|end_char=3|SpaceAfter=No
+3	開	開	NOUN	NN	_	5	nsubj	_	start_char=3|end_char=4|SpaceAfter=No
+4	就	就	SCONJ	RB	_	5	mark	_	start_char=4|end_char=5|SpaceAfter=No
+5	看	看	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	著	著	AUX	AS	Aspect=Prog	5	aux	_	start_char=6|end_char=7|SpaceAfter=No
+7	伊矣	伊矣	PROPN	NNP	_	5	obj	_	start_char=7|end_char=9|SpaceAfter=No
+8	。	。	PUNCT	.	_	5	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 52
+# text = 伊做代誌跤手真扭掠。
+1	伊做	伊做	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	代誌	代誌	NOUN	NN	_	3	compound	_	start_char=2|end_char=4|SpaceAfter=No
+3	跤	跤	PART	SFN	_	5	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+4	手真	手真	ADV	RB	_	5	advmod	_	start_char=5|end_char=7|SpaceAfter=No
+5	扭掠	扭掠	VERB	VV	_	0	root	_	start_char=7|end_char=9|SpaceAfter=No
+6	。	。	PUNCT	.	_	5	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 53
+# text = 跤手無夠。
+1	跤手	跤手	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	無夠	無夠	VERB	VV	_	0	root	_	start_char=2|end_char=4|SpaceAfter=No
+3	。	。	PUNCT	.	_	2	punct	_	start_char=4|end_char=5|SpaceAfter=No
+
+# sent_id = 54
+# text = 伊定定攏耍甲規身軀烏趖趖。
+1	伊定	伊定	PROPN	NNP	_	6	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	定攏	定攏	VERB	VV	_	6	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+3	耍	耍	VERB	VV	_	6	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+4	甲規	甲規	NOUN	NN	_	5	nmod	_	start_char=5|end_char=7|SpaceAfter=No
+5	身軀	身軀	NOUN	NN	_	3	obj	_	start_char=7|end_char=9|SpaceAfter=No
+6	烏趖趖	烏趖趖	VERB	VV	_	0	root	_	start_char=9|end_char=12|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 55
+# text = 伊從舊年到今攏無頭路。
+1	伊從	伊從	PROPN	NNP	_	5	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	舊年	舊年	NOUN	NN	_	5	nmod:tmod	_	start_char=2|end_char=4|SpaceAfter=No
+3	到	到	ADP	IN	_	4	case	_	start_char=4|end_char=5|SpaceAfter=No
+4	今	今	NOUN	NN	_	5	obl	_	start_char=5|end_char=6|SpaceAfter=No
+5	攏	攏	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+6	無頭	無頭	VERB	VV	_	7	compound	_	start_char=7|end_char=9|SpaceAfter=No
+7	路	路	PART	SFN	_	5	obj	_	start_char=9|end_char=10|SpaceAfter=No
+8	。	。	PUNCT	.	_	5	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 56
+# text = 我來介紹恁兩个熟似。
+1	我來	我來	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	介紹	介紹	VERB	VV	_	0	root	_	start_char=2|end_char=4|SpaceAfter=No
+3	恁	恁	PRON	PRP	Person=3	6	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+4	兩	兩	NUM	CD	NumType=Card	5	nummod	_	start_char=5|end_char=6|SpaceAfter=No
+5	个	个	NOUN	NNB	_	6	obl	_	start_char=6|end_char=7|SpaceAfter=No
+6	熟似	熟似	VERB	VV	_	2	ccomp	_	start_char=7|end_char=9|SpaceAfter=No
+7	。	。	PUNCT	.	_	2	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 57
+# text = 伊彼雙鞋穿甲塌底才擲掉。
+1	伊彼	伊彼	PROPN	NNP	_	2	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	雙鞋	雙鞋	NOUN	NN	_	6	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+3	穿甲	穿甲	VERB	VV	_	6	advcl	_	start_char=4|end_char=6|SpaceAfter=No
+4	塌底	塌底	NOUN	NN	_	3	obj	_	start_char=6|end_char=8|SpaceAfter=No
+5	才	才	SCONJ	RB	_	6	mark	_	start_char=8|end_char=9|SpaceAfter=No
+6	擲掉	擲掉	VERB	VV	_	0	root	_	start_char=9|end_char=11|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 58
+# text = 你寒天出門毋穿外套，較加嘛會感冒。
+1	你	你	PRON	PRP	Person=2	3	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	寒	寒	PART	PFA	_	3	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	天	天	NOUN	NNB	_	6	nmod:tmod	_	start_char=2|end_char=3|SpaceAfter=No
+4	出門	出門	VERB	VV	_	6	advcl	_	start_char=3|end_char=5|SpaceAfter=No
+5	毋	毋	AUX	MD	_	6	aux	_	start_char=5|end_char=6|SpaceAfter=No
+6	穿	穿	VERB	VV	_	12	advcl	_	start_char=6|end_char=7|SpaceAfter=No
+7	外套	外套	NOUN	NN	_	6	obj	_	start_char=7|end_char=9|SpaceAfter=No
+8	，	，	PUNCT	,	_	6	punct	_	start_char=9|end_char=10|SpaceAfter=No
+9	較	較	ADV	RB	_	12	advmod	_	start_char=10|end_char=11|SpaceAfter=No
+10	加嘛	加嘛	VERB	VV	_	12	advcl	_	start_char=11|end_char=13|SpaceAfter=No
+11	會	會	AUX	MD	_	12	aux	_	start_char=13|end_char=14|SpaceAfter=No
+12	感冒	感冒	VERB	VV	_	0	root	_	start_char=14|end_char=16|SpaceAfter=No
+13	。	。	PUNCT	.	_	12	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 59
+# text = 買這領衫去掉一千箍。
+1	買	買	VERB	VV	_	4	advcl	_	start_char=0|end_char=1|SpaceAfter=No
+2	這	這	DET	DT	_	3	det	_	start_char=1|end_char=2|SpaceAfter=No
+3	領衫	領衫	NOUN	NN	_	1	obj	_	start_char=2|end_char=4|SpaceAfter=No
+4	去掉	去掉	VERB	VV	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+5	一千	一千	NUM	CD	NumType=Card	6	nummod	_	start_char=6|end_char=8|SpaceAfter=No
+6	箍	箍	NOUN	NN	_	4	obj	_	start_char=8|end_char=9|SpaceAfter=No
+7	。	。	PUNCT	.	_	4	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 60
+# text = 我共衫仔褲挂佇衫架仔頂。
+1	我	我	PRON	PRP	Person=1	5	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	共	共	ADV	RB	_	5	advmod	_	start_char=1|end_char=2|SpaceAfter=No
+3	衫仔	衫仔	VERB	VV	_	5	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+4	褲	褲	NOUN	NN	_	3	obj	_	start_char=4|end_char=5|SpaceAfter=No
+5	挂	挂	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	佇衫	佇衫	VERB	VV	_	7	compound	_	start_char=6|end_char=8|SpaceAfter=No
+7	架	架	PART	SFN	_	8	nmod	_	start_char=8|end_char=9|SpaceAfter=No
+8	仔頂	仔頂	NOUN	NN	_	5	obj	_	start_char=9|end_char=11|SpaceAfter=No
+9	。	。	PUNCT	.	_	5	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 61
+# text = 愛媠毋驚流鼻水。
+1	愛媠	愛媠	NOUN	NN	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	毋	毋	AUX	MD	_	3	aux	_	start_char=2|end_char=3|SpaceAfter=No
+3	驚流	驚流	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	鼻	鼻	NOUN	NN	_	5	compound	_	start_char=5|end_char=6|SpaceAfter=No
+5	水	水	PART	SFN	_	3	obj	_	start_char=6|end_char=7|SpaceAfter=No
+6	。	。	PUNCT	.	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 62
+# text = 鼻仔都擤甲紅絳絳矣你閣一直擤鼻。
+1	鼻仔	鼻仔	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	都	都	SCONJ	RB	_	3	mark	_	start_char=2|end_char=3|SpaceAfter=No
+3	擤甲	擤甲	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	紅	紅	NOUN	NN	_	10	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+5	絳	絳	PROPN	NNP	_	4	appos	_	start_char=6|end_char=7|SpaceAfter=No
+6	絳	絳	PROPN	NNP	_	5	flat:name	_	start_char=7|end_char=8|SpaceAfter=No
+7	矣	矣	VERB	VV	_	10	advcl	_	start_char=8|end_char=9|SpaceAfter=No
+8	你閣	你閣	NOUN	NN	_	7	obj	_	start_char=9|end_char=11|SpaceAfter=No
+9	一直	一直	ADV	RB	_	10	advmod	_	start_char=11|end_char=13|SpaceAfter=No
+10	擤鼻	擤鼻	VERB	VV	_	3	ccomp	_	start_char=13|end_char=15|SpaceAfter=No
+11	。	。	PUNCT	.	_	3	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 63
+# text = 阿母攏用芳雪文咧洗身軀。
+1	阿母	阿母	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	攏	攏	ADV	RB	_	3	advmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	用	用	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	芳	芳	PROPN	NNP	_	6	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	雪文	雪文	PROPN	NNP	_	4	flat:name	_	start_char=5|end_char=7|SpaceAfter=No
+6	咧洗	咧洗	VERB	VV	_	3	ccomp	_	start_char=7|end_char=9|SpaceAfter=No
+7	身軀	身軀	NOUN	NN	_	6	obj	_	start_char=9|end_char=11|SpaceAfter=No
+8	。	。	PUNCT	.	_	3	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 64
+# text = 頭毛洗好愛吹予焦，才袂感冒。
+1	頭毛	頭毛	NOUN	NN	_	9	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	洗好	洗好	VERB	VV	_	3	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+3	愛	愛	VERB	VV	_	9	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+4	吹予	吹予	VERB	VV	_	5	compound	_	start_char=5|end_char=7|SpaceAfter=No
+5	焦	焦	PART	SFN	_	3	obj	_	start_char=7|end_char=8|SpaceAfter=No
+6	，	，	PUNCT	,	_	3	punct	_	start_char=8|end_char=9|SpaceAfter=No
+7	才	才	SCONJ	RB	_	8	mark	_	start_char=9|end_char=10|SpaceAfter=No
+8	袂	袂	VERB	VV	_	9	advcl	_	start_char=10|end_char=11|SpaceAfter=No
+9	感冒	感冒	VERB	VV	_	0	root	_	start_char=11|end_char=13|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 65
+# text = 拆單欲去坐火車。
+1	拆單	拆單	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	欲	欲	AUX	MD	_	3	aux	_	start_char=2|end_char=3|SpaceAfter=No
+3	去坐	去坐	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	火車	火車	NOUN	NN	_	3	obj	_	start_char=5|end_char=7|SpaceAfter=No
+5	。	。	PUNCT	.	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 66
+# text = 愛食啥家己夾。
+1	愛食啥	愛食啥	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=3|SpaceAfter=No
+2	家己	家己	NOUN	NN	_	3	compound	_	start_char=3|end_char=5|SpaceAfter=No
+3	夾	夾	PART	SFN	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+4	。	。	PUNCT	.	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 67
+# text = 我囥佇桌頂的文件是啥人提去？
+1	我囥佇	我囥佇	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	桌頂	桌頂	VERB	VV	_	4	acl:relcl	_	start_char=3|end_char=5|SpaceAfter=No
+3	的	的	SCONJ	DEC	_	2	mark:rel	_	start_char=5|end_char=6|SpaceAfter=No
+4	文件	文件	NOUN	NN	_	5	nsubj	_	start_char=6|end_char=8|SpaceAfter=No
+5	是	是	VERB	VC	_	0	root	_	start_char=8|end_char=9|SpaceAfter=No
+6	啥	啥	PRON	WP	_	7	det	_	start_char=9|end_char=10|SpaceAfter=No
+7	人	人	NOUN	NN	_	8	nsubj	_	start_char=10|end_char=11|SpaceAfter=No
+8	提去	提去	VERB	VV	_	5	ccomp	_	start_char=11|end_char=13|SpaceAfter=No
+9	？	？	PUNCT	.	_	5	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 68
+# text = 我心肝內的艱苦啥人知？
+1	我心	我心	NOUN	NN	_	2	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	肝	肝	NOUN	NN	_	7	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	內	內	NOUN	NN	_	2	acl	_	start_char=3|end_char=4|SpaceAfter=No
+4	的	的	PART	DEC	Case=Gen	2	case	_	start_char=4|end_char=5|SpaceAfter=No
+5	艱苦	艱苦	ADJ	JJ	_	7	amod	_	start_char=5|end_char=7|SpaceAfter=No
+6	啥	啥	PRON	WP	_	7	det	_	start_char=7|end_char=8|SpaceAfter=No
+7	人	人	NOUN	NN	_	8	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+8	知	知	VERB	VV	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+9	？	？	PUNCT	.	_	8	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 69
+# text = 彼幾个查某囡仔徛佇遐毋知是咧等啥人。
+1	彼幾	彼幾	DET	DT	_	2	det	_	start_char=0|end_char=2|SpaceAfter=No
+2	个	个	NOUN	NNB	_	3	obl	_	start_char=2|end_char=3|SpaceAfter=No
+3	查	查	VERB	VV	_	10	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+4	某	某	DET	DT	_	5	det	_	start_char=4|end_char=5|SpaceAfter=No
+5	囡仔	囡仔	NOUN	NN	_	3	obj	_	start_char=5|end_char=7|SpaceAfter=No
+6	徛	徛	PUNCT	,	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	佇	佇	AUX	MD	_	10	aux	_	start_char=8|end_char=9|SpaceAfter=No
+8	遐	遐	VERB	VV	_	10	advcl	_	start_char=9|end_char=10|SpaceAfter=No
+9	毋	毋	AUX	MD	_	10	aux	_	start_char=10|end_char=11|SpaceAfter=No
+10	知	知	VERB	VV	_	13	acl	_	start_char=11|end_char=12|SpaceAfter=No
+11	是	是	AUX	VC	_	12	cop	_	start_char=12|end_char=13|SpaceAfter=No
+12	咧	咧	ADJ	JJ	_	10	xcomp	_	start_char=13|end_char=14|SpaceAfter=No
+13	等	等	NOUN	NN	_	0	root	_	start_char=14|end_char=15|SpaceAfter=No
+14	啥	啥	PRON	WP	_	15	det	_	start_char=15|end_char=16|SpaceAfter=No
+15	人	人	NOUN	NN	_	12	obl	_	start_char=16|end_char=17|SpaceAfter=No
+16	。	。	PUNCT	.	_	10	punct	_	start_char=17|end_char=18|SpaceAfter=No
+
+# sent_id = 70
+# text = 會曉煮雜菜麵的麵擔仔愈來愈少矣。
+1	會	會	AUX	MD	_	2	aux	_	start_char=0|end_char=1|SpaceAfter=No
+2	曉煮	曉煮	VERB	VV	_	0	root	_	start_char=1|end_char=3|SpaceAfter=No
+3	雜菜	雜菜	NOUN	NN	_	4	compound	_	start_char=3|end_char=5|SpaceAfter=No
+4	麵	麵	PART	SFN	_	7	nmod	_	start_char=5|end_char=6|SpaceAfter=No
+5	的	的	PART	DEC	Case=Gen	4	case	_	start_char=6|end_char=7|SpaceAfter=No
+6	麵	麵	NOUN	NN	_	7	nmod	_	start_char=7|end_char=8|SpaceAfter=No
+7	擔仔	擔仔	NOUN	NN	_	12	nsubj	_	start_char=8|end_char=10|SpaceAfter=No
+8	愈	愈	ADV	RB	_	12	advmod	_	start_char=10|end_char=11|SpaceAfter=No
+9	來	來	SCONJ	RB	_	12	mark	_	start_char=11|end_char=12|SpaceAfter=No
+10	愈	愈	ADV	RB	_	12	advmod	_	start_char=12|end_char=13|SpaceAfter=No
+11	少	少	ADV	RB	_	12	advmod	_	start_char=13|end_char=14|SpaceAfter=No
+12	矣	矣	VERB	VV	_	2	ccomp	_	start_char=14|end_char=15|SpaceAfter=No
+13	。	。	PUNCT	.	_	2	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 71
+# text = 這粒木瓜夭壽甜！
+1	這	這	DET	DT	_	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	粒木瓜夭	粒木瓜夭	VERB	VV	_	0	root	_	start_char=1|end_char=5|SpaceAfter=No
+3	壽甜	壽甜	NOUN	NN	_	2	obj	_	start_char=5|end_char=7|SpaceAfter=No
+4	！	！	PUNCT	.	_	2	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 72
+# text = 夭壽！阮這條巷仔昨昏又閣著賊偷矣。
+1	夭壽	夭壽	PROPN	NNP	_	9	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	！	！	PROPN	NNP	_	1	flat:name	_	start_char=2|end_char=3|SpaceAfter=No
+3	阮	阮	PROPN	NNP	_	2	flat:name	_	start_char=3|end_char=4|SpaceAfter=No
+4	這	這	DET	DT	_	5	det	_	start_char=4|end_char=5|SpaceAfter=No
+5	條	條	NOUN	NNB	_	7	clf	_	start_char=5|end_char=6|SpaceAfter=No
+6	巷仔	巷仔	NOUN	NN	_	7	nmod	_	start_char=6|end_char=8|SpaceAfter=No
+7	昨昏	昨昏	NOUN	NN	_	9	nsubj	_	start_char=8|end_char=10|SpaceAfter=No
+8	又	又	SCONJ	RB	_	9	mark	_	start_char=10|end_char=11|SpaceAfter=No
+9	閣	閣	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+10	著	著	AUX	AS	Aspect=Prog	9	aux	_	start_char=12|end_char=13|SpaceAfter=No
+11	賊	賊	NOUN	NN	_	12	nsubj	_	start_char=13|end_char=14|SpaceAfter=No
+12	偷矣	偷矣	VERB	VV	_	9	ccomp	_	start_char=14|end_char=16|SpaceAfter=No
+13	。	。	PUNCT	.	_	9	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 73
+# text = 你按呢做毋驚會夭壽！
+1	你	你	PRON	PRP	Person=2	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	按	按	ADP	IN	_	3	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	呢	呢	PRON	WP	_	4	obl	_	start_char=2|end_char=3|SpaceAfter=No
+4	做	做	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+5	毋	毋	AUX	MD	_	7	aux	_	start_char=4|end_char=5|SpaceAfter=No
+6	驚會	驚會	NOUN	NN	_	7	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+7	夭	夭	VERB	VV	_	4	xcomp	_	start_char=7|end_char=8|SpaceAfter=No
+8	壽	壽	NOUN	NN	_	7	obj	_	start_char=8|end_char=9|SpaceAfter=No
+9	！	！	PUNCT	.	_	4	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 74
+# text = 你這款人，啥物夭壽代誌做袂出來！
+1	你	你	PRON	PRP	Person=2	4	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	這	這	DET	DT	_	3	det	_	start_char=1|end_char=2|SpaceAfter=No
+3	款	款	NOUN	NNB	_	4	clf	_	start_char=2|end_char=3|SpaceAfter=No
+4	人	人	NOUN	NN	_	11	nsubj	_	start_char=3|end_char=4|SpaceAfter=No
+5	，	，	PUNCT	,	_	4	punct	_	start_char=4|end_char=5|SpaceAfter=No
+6	啥物	啥物	NOUN	NN	_	7	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+7	夭	夭	VERB	VV	_	11	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+8	壽	壽	NUM	CD	NumType=Card	9	nummod	_	start_char=8|end_char=9|SpaceAfter=No
+9	代	代	NOUN	NN	_	10	compound	_	start_char=9|end_char=10|SpaceAfter=No
+10	誌	誌	PART	SFN	_	7	obj	_	start_char=10|end_char=11|SpaceAfter=No
+11	做	做	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+12	袂	袂	VERB	VV	_	11	mark	_	start_char=12|end_char=13|SpaceAfter=No
+13	出來	出來	VERB	VV	_	11	mark	_	start_char=13|end_char=15|SpaceAfter=No
+14	！	！	PUNCT	.	_	11	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 75
+# text = 按呢敢有對？
+1	按	按	ADP	IN	_	2	case	_	start_char=0|end_char=1|SpaceAfter=No
+2	呢敢	呢敢	NOUN	NN	_	3	obl	_	start_char=1|end_char=3|SpaceAfter=No
+3	有	有	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	對	對	ADJ	JJ	_	3	xcomp	_	start_char=4|end_char=5|SpaceAfter=No
+5	？	？	PUNCT	.	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 76
+# text = 食米毋知米價。
+1	食米	食米	NOUN	NN	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	毋	毋	AUX	MD	_	3	aux	_	start_char=2|end_char=3|SpaceAfter=No
+3	知	知	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	米價	米價	NOUN	NN	_	3	obj	_	start_char=4|end_char=6|SpaceAfter=No
+5	。	。	PUNCT	.	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 77
+# text = 救人的代誌就愛趕緊處理。
+1	救人	救人	VERB	VV	_	3	acl:relcl	_	start_char=0|end_char=2|SpaceAfter=No
+2	的	的	SCONJ	DEC	_	1	mark:rel	_	start_char=2|end_char=3|SpaceAfter=No
+3	代誌	代誌	NOUN	NN	_	5	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+4	就	就	SCONJ	RB	_	5	mark	_	start_char=5|end_char=6|SpaceAfter=No
+5	愛	愛	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+6	趕緊	趕緊	ADV	RB	_	7	advmod	_	start_char=7|end_char=9|SpaceAfter=No
+7	處理	處理	VERB	VV	_	5	xcomp	_	start_char=9|end_char=11|SpaceAfter=No
+8	。	。	PUNCT	.	_	5	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 78
+# text = 伊大舌所以講話袂輾轉。
+1	伊大舌	伊大舌	PROPN	NNP	_	5	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	所以	所以	SCONJ	RB	_	5	mark	_	start_char=3|end_char=5|SpaceAfter=No
+3	講話	講話	VERB	VV	_	5	advcl	_	start_char=5|end_char=7|SpaceAfter=No
+4	袂	袂	PROPN	NNP	_	3	obj	_	start_char=7|end_char=8|SpaceAfter=No
+5	輾轉	輾轉	VERB	VV	_	0	root	_	start_char=8|end_char=10|SpaceAfter=No
+6	。	。	PUNCT	.	_	5	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 79
+# text = 哪會攏無人插伊？
+1	哪會	哪會	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	攏	攏	ADV	RB	_	3	advmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	無	無	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	人	人	NOUN	NN	_	5	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	插伊	插伊	VERB	VV	_	3	ccomp	_	start_char=5|end_char=7|SpaceAfter=No
+6	？	？	PUNCT	.	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 80
+# text = 較早的人感覺出丁是福氣。
+1	較早	較早	ADJ	JJ	_	3	amod	_	start_char=0|end_char=2|SpaceAfter=No
+2	的	的	SCONJ	DEC	_	1	mark:rel	_	start_char=2|end_char=3|SpaceAfter=No
+3	人	人	NOUN	NN	_	4	nsubj	_	start_char=3|end_char=4|SpaceAfter=No
+4	感覺	感覺	VERB	VV	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+5	出丁	出丁	NOUN	NN	_	7	nsubj	_	start_char=6|end_char=8|SpaceAfter=No
+6	是	是	AUX	VC	_	7	cop	_	start_char=8|end_char=9|SpaceAfter=No
+7	福氣	福氣	NOUN	NN	_	4	ccomp	_	start_char=9|end_char=11|SpaceAfter=No
+8	。	。	PUNCT	.	_	4	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 81
+# text = 伊頭殼去挵著桌角煞腫一癗。
+1	伊頭	伊頭	PROPN	NNP	_	2	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	殼去	殼去	NOUN	NN	_	3	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+3	挵	挵	VERB	VV	_	0	root	_	start_char=4|end_char=5|SpaceAfter=No
+4	著	著	AUX	AS	Aspect=Prog	3	aux	_	start_char=5|end_char=6|SpaceAfter=No
+5	桌角	桌角	NOUN	NN	_	6	nmod	_	start_char=6|end_char=8|SpaceAfter=No
+6	煞腫	煞腫	NOUN	NN	_	3	obj	_	start_char=8|end_char=10|SpaceAfter=No
+7	一	一	NUM	CD	NumType=Card	8	nummod	_	start_char=10|end_char=11|SpaceAfter=No
+8	癗	癗	NOUN	NN	_	6	acl	_	start_char=11|end_char=12|SpaceAfter=No
+9	。	。	PUNCT	.	_	3	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 82
+# text = 芋仔著愛鬆才會好食。
+1	芋仔	芋仔	PROPN	NNP	_	6	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	著	著	AUX	AS	Aspect=Prog	3	aux	_	start_char=2|end_char=3|SpaceAfter=No
+3	愛鬆	愛鬆	VERB	VV	_	6	advcl	_	start_char=3|end_char=5|SpaceAfter=No
+4	才	才	SCONJ	RB	_	6	mark	_	start_char=5|end_char=6|SpaceAfter=No
+5	會	會	AUX	MD	_	6	aux	_	start_char=6|end_char=7|SpaceAfter=No
+6	好食	好食	VERB	VV	_	0	root	_	start_char=7|end_char=9|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 83
+# text = 車咧欲開矣，你若無較緊咧就袂赴矣。
+1	車咧	車咧	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	欲	欲	AUX	MD	_	3	aux	_	start_char=2|end_char=3|SpaceAfter=No
+3	開矣	開矣	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	12	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	你	你	PRON	PRP	Person=2	12	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	若	若	ADP	IN	_	8	case	_	start_char=7|end_char=8|SpaceAfter=No
+7	無較	無較	VERB	VV	_	8	advcl	_	start_char=8|end_char=10|SpaceAfter=No
+8	緊咧	緊咧	VERB	VV	_	12	xcomp	_	start_char=10|end_char=12|SpaceAfter=No
+9	就	就	SCONJ	RB	_	12	mark	_	start_char=12|end_char=13|SpaceAfter=No
+10	袂	袂	AUX	MD	_	12	aux	_	start_char=13|end_char=14|SpaceAfter=No
+11	赴	赴	VERB	VV	_	12	advcl	_	start_char=14|end_char=15|SpaceAfter=No
+12	矣	矣	VERB	VV	_	3	parataxis	_	start_char=15|end_char=16|SpaceAfter=No
+13	。	。	PUNCT	.	_	3	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 84
+# text = 袂當用樹奶共人擉。
+1	袂	袂	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	當用	當用	VERB	VV	_	3	compound	_	start_char=1|end_char=3|SpaceAfter=No
+3	樹	樹	PART	SFN	_	5	nmod	_	start_char=3|end_char=4|SpaceAfter=No
+4	奶共	奶共	PROPN	NNP	_	5	compound	_	start_char=4|end_char=6|SpaceAfter=No
+5	人	人	PART	SFN	_	6	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	擉	擉	VERB	VV	_	0	root	_	start_char=7|end_char=8|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 85
+# text = 天烏烏，欲落雨。
+1	天烏烏	天烏烏	PROPN	NNP	_	4	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	，	，	PUNCT	,	_	1	punct	_	start_char=3|end_char=4|SpaceAfter=No
+3	欲	欲	AUX	MD	_	4	aux	_	start_char=4|end_char=5|SpaceAfter=No
+4	落雨	落雨	VERB	VV	_	0	root	_	start_char=5|end_char=7|SpaceAfter=No
+5	。	。	PUNCT	.	_	4	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 86
+# text = 阮明仔載就開始歇寒，免去學校上課矣。
+1	阮	阮	PROPN	NNP	_	11	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	明仔	明仔	PROPN	NNP	_	1	flat:name	_	start_char=1|end_char=3|SpaceAfter=No
+3	載	載	VERB	VV	_	11	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+4	就	就	SCONJ	RB	_	5	mark	_	start_char=4|end_char=5|SpaceAfter=No
+5	開始	開始	VERB	VV	_	11	advcl	_	start_char=5|end_char=7|SpaceAfter=No
+6	歇寒	歇寒	VERB	VV	_	5	xcomp	_	start_char=7|end_char=9|SpaceAfter=No
+7	，	，	PUNCT	,	_	5	punct	_	start_char=9|end_char=10|SpaceAfter=No
+8	免去	免去	VERB	VV	Voice=Cau	11	advcl	_	start_char=10|end_char=12|SpaceAfter=No
+9	學校	學校	NOUN	NN	_	8	obj	_	start_char=12|end_char=14|SpaceAfter=No
+10	上課	上課	VERB	VV	_	11	advcl	_	start_char=14|end_char=16|SpaceAfter=No
+11	矣	矣	VERB	VV	_	0	root	_	start_char=16|end_char=17|SpaceAfter=No
+12	。	。	PUNCT	.	_	11	punct	_	start_char=17|end_char=18|SpaceAfter=No
+
+# sent_id = 87
+# text = 學生囡仔逐工攏愛去學校上課。
+1	學生	學生	NOUN	NN	_	8	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	囡仔	囡仔	PROPN	NNP	_	1	appos	_	start_char=2|end_char=4|SpaceAfter=No
+3	逐工	逐工	VERB	VV	_	8	advcl	_	start_char=4|end_char=6|SpaceAfter=No
+4	攏	攏	VERB	VV	_	3	mark	_	start_char=6|end_char=7|SpaceAfter=No
+5	愛	愛	VERB	VV	_	8	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+6	去	去	VERB	VV	_	5	mark	_	start_char=8|end_char=9|SpaceAfter=No
+7	學校	學校	NOUN	NN	_	6	obj	_	start_char=9|end_char=11|SpaceAfter=No
+8	上課	上課	VERB	VV	_	0	root	_	start_char=11|end_char=13|SpaceAfter=No
+9	。	。	PUNCT	.	_	8	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 88
+# text = 伊規禮拜攏無去學校。
+1	伊規	伊規	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	禮拜	禮拜	VERB	VV	_	3	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+3	攏	攏	VERB	VV	_	0	root	_	start_char=4|end_char=5|SpaceAfter=No
+4	無去	無去	VERB	VV	_	5	amod	_	start_char=5|end_char=7|SpaceAfter=No
+5	學校	學校	NOUN	NN	_	3	obj	_	start_char=7|end_char=9|SpaceAfter=No
+6	。	。	PUNCT	.	_	3	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 89
+# text = 今仔日我本底欲去學校，騎車跋倒著傷才無去。
+1	今仔	今仔	PROPN	NNP	_	13	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	日	日	PROPN	NNP	_	1	flat:name	_	start_char=2|end_char=3|SpaceAfter=No
+3	我	我	PRON	PRP	Person=1	4	nmod	_	start_char=3|end_char=4|SpaceAfter=No
+4	本底	本底	NOUN	NN	_	13	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+5	欲	欲	AUX	MD	_	13	aux	_	start_char=6|end_char=7|SpaceAfter=No
+6	去	去	VERB	VV	_	13	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+7	學校	學校	NOUN	NN	_	6	obj	_	start_char=8|end_char=10|SpaceAfter=No
+8	，	，	PUNCT	,	_	6	punct	_	start_char=10|end_char=11|SpaceAfter=No
+9	騎車	騎車	VERB	VV	_	13	advcl	_	start_char=11|end_char=13|SpaceAfter=No
+10	跋倒	跋倒	VERB	VV	_	11	advcl	_	start_char=13|end_char=15|SpaceAfter=No
+11	著傷	著傷	VERB	VV	_	13	advcl	_	start_char=15|end_char=17|SpaceAfter=No
+12	才	才	SCONJ	RB	_	13	mark	_	start_char=17|end_char=18|SpaceAfter=No
+13	無去	無去	VERB	VV	_	0	root	_	start_char=18|end_char=20|SpaceAfter=No
+14	。	。	PUNCT	.	_	13	punct	_	start_char=20|end_char=21|SpaceAfter=No
+
+# sent_id = 90
+# text = 阿娥佮𪜶頭家攏佇菜市仔賣物件。
+1	阿娥	阿娥	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	佮	佮	VERB	VV	_	4	amod	_	start_char=2|end_char=3|SpaceAfter=No
+3	𪜶頭	𪜶頭	VERB	VV	_	4	compound	_	start_char=3|end_char=5|SpaceAfter=No
+4	家	家	PART	SFN	_	5	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+5	攏	攏	VERB	VV	_	9	advcl	_	start_char=6|end_char=7|SpaceAfter=No
+6	佇	佇	VERB	VV	_	5	mark	_	start_char=7|end_char=8|SpaceAfter=No
+7	菜	菜	NOUN	NN	_	8	nmod	_	start_char=8|end_char=9|SpaceAfter=No
+8	市仔	市仔	NOUN	NN	_	5	obj	_	start_char=9|end_char=11|SpaceAfter=No
+9	賣	賣	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+10	物件	物件	NOUN	NN	_	9	obj	_	start_char=12|end_char=14|SpaceAfter=No
+11	。	。	PUNCT	.	_	9	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 91
+# text = 𪜶講欲去夜市仔看人拍拳頭賣膏藥。
+1	𪜶	𪜶	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	講	講	VERB	VV	_	0	root	_	start_char=1|end_char=2|SpaceAfter=No
+3	欲	欲	AUX	MD	_	7	aux	_	start_char=2|end_char=3|SpaceAfter=No
+4	去	去	VERB	VV	_	7	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+5	夜	夜	NOUN	NN	_	6	nmod	_	start_char=4|end_char=5|SpaceAfter=No
+6	市仔	市仔	NOUN	NN	_	4	obj	_	start_char=5|end_char=7|SpaceAfter=No
+7	看	看	VERB	VV	_	2	xcomp	_	start_char=7|end_char=8|SpaceAfter=No
+8	人	人	NOUN	NN	_	9	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+9	拍	拍	VERB	VV	_	11	advcl	_	start_char=9|end_char=10|SpaceAfter=No
+10	拳頭	拳頭	NOUN	NN	_	9	obj	_	start_char=10|end_char=12|SpaceAfter=No
+11	賣	賣	VERB	VV	_	2	xcomp	_	start_char=12|end_char=13|SpaceAfter=No
+12	膏	膏	NOUN	NN	_	13	nmod	_	start_char=13|end_char=14|SpaceAfter=No
+13	藥	藥	NOUN	NN	_	11	obj	_	start_char=14|end_char=15|SpaceAfter=No
+14	。	。	PUNCT	.	_	2	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 92
+# text = 家豪佮淑芬是這馬真流行的菜市仔名。
+1	家豪	家豪	PROPN	NNP	_	11	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	佮	佮	PROPN	NNP	_	1	flat:name	_	start_char=2|end_char=3|SpaceAfter=No
+3	淑芬	淑芬	PROPN	NNP	_	2	flat:name	_	start_char=3|end_char=5|SpaceAfter=No
+4	是	是	AUX	VC	_	11	cop	_	start_char=5|end_char=6|SpaceAfter=No
+5	這	這	DET	DT	_	6	det	_	start_char=6|end_char=7|SpaceAfter=No
+6	馬真	馬真	NOUN	NNB	_	11	nmod	_	start_char=7|end_char=9|SpaceAfter=No
+7	流行	流行	ADJ	JJ	_	11	amod	_	start_char=9|end_char=11|SpaceAfter=No
+8	的	的	SCONJ	DEC	_	7	mark:rel	_	start_char=11|end_char=12|SpaceAfter=No
+9	菜	菜	NOUN	NN	_	11	nmod	_	start_char=12|end_char=13|SpaceAfter=No
+10	市仔	市仔	NOUN	NN	_	11	compound	_	start_char=13|end_char=15|SpaceAfter=No
+11	名	名	PART	SFN	_	0	root	_	start_char=15|end_char=16|SpaceAfter=No
+12	。	。	PUNCT	.	_	11	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 93
+# text = 咱來去踅彼搭的夜市仔，好無？
+1	咱來	咱來	PROPN	NNP	_	10	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	去	去	VERB	VV	_	10	advcl	_	start_char=2|end_char=3|SpaceAfter=No
+3	踅	踅	VERB	VV	_	2	xcomp	_	start_char=3|end_char=4|SpaceAfter=No
+4	彼搭	彼搭	NOUN	NN	_	7	nmod	_	start_char=4|end_char=6|SpaceAfter=No
+5	的	的	PART	DEC	Case=Gen	4	case	_	start_char=6|end_char=7|SpaceAfter=No
+6	夜	夜	NOUN	NN	_	7	nmod	_	start_char=7|end_char=8|SpaceAfter=No
+7	市仔	市仔	NOUN	NN	_	3	obj	_	start_char=8|end_char=10|SpaceAfter=No
+8	，	，	PUNCT	,	_	2	punct	_	start_char=10|end_char=11|SpaceAfter=No
+9	好	好	ADV	RB	_	10	advmod	_	start_char=11|end_char=12|SpaceAfter=No
+10	無	無	VERB	VV	_	0	root	_	start_char=12|end_char=13|SpaceAfter=No
+11	？	？	PUNCT	.	_	10	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 94
+# text = 一塊糖仔落佇塗跤，連鞭狗蟻就生甲密密是。
+1	一	一	NUM	CD	NumType=Card	2	nummod	_	start_char=0|end_char=1|SpaceAfter=No
+2	塊	塊	NOUN	NNB	_	4	nmod	_	start_char=1|end_char=2|SpaceAfter=No
+3	糖仔	糖仔	NOUN	NN	_	4	compound	_	start_char=2|end_char=4|SpaceAfter=No
+4	落	落	PART	SFN	_	5	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	佇	佇	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	塗跤	塗跤	VERB	VV	_	5	xcomp	_	start_char=6|end_char=8|SpaceAfter=No
+7	，	，	PUNCT	,	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No
+8	連	連	ADV	RB	_	9	advmod	_	start_char=9|end_char=10|SpaceAfter=No
+9	鞭	鞭	VERB	VV	_	13	advcl	_	start_char=10|end_char=11|SpaceAfter=No
+10	狗	狗	NOUN	NN	_	11	nmod	_	start_char=11|end_char=12|SpaceAfter=No
+11	蟻	蟻	NOUN	NN	_	9	obj	_	start_char=12|end_char=13|SpaceAfter=No
+12	就	就	SCONJ	RB	_	13	mark	_	start_char=13|end_char=14|SpaceAfter=No
+13	生甲	生甲	VERB	VV	_	5	parataxis	_	start_char=14|end_char=16|SpaceAfter=No
+14	密密	密密	ADJ	JJ	_	13	xcomp	_	start_char=16|end_char=18|SpaceAfter=No
+15	是	是	AUX	VC	_	5	parataxis	_	start_char=18|end_char=19|SpaceAfter=No
+16	。	。	PUNCT	.	_	5	punct	_	start_char=19|end_char=20|SpaceAfter=No
+
+# sent_id = 95
+# text = 海產食了，腹肚煞滾絞疼，上好緊去看醫生。
+1	海	海	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	產食	產食	VERB	VV	_	0	root	_	start_char=1|end_char=3|SpaceAfter=No
+3	了	了	AUX	AS	Aspect=Perf	2	aux	_	start_char=3|end_char=4|SpaceAfter=No
+4	，	，	PUNCT	,	_	11	punct	_	start_char=4|end_char=5|SpaceAfter=No
+5	腹肚	腹肚	PROPN	NNP	_	11	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+6	煞滾	煞滾	VERB	VV	_	11	advcl	_	start_char=7|end_char=9|SpaceAfter=No
+7	絞疼	絞疼	VERB	VV	_	6	xcomp	_	start_char=9|end_char=11|SpaceAfter=No
+8	，	，	PUNCT	,	_	6	punct	_	start_char=11|end_char=12|SpaceAfter=No
+9	上好	上好	ADV	RB	_	11	advmod	_	start_char=12|end_char=14|SpaceAfter=No
+10	緊	緊	ADV	RB	_	11	advmod	_	start_char=14|end_char=15|SpaceAfter=No
+11	去看	去看	VERB	VV	_	2	parataxis	_	start_char=15|end_char=17|SpaceAfter=No
+12	醫生	醫生	NOUN	NN	_	11	obj	_	start_char=17|end_char=19|SpaceAfter=No
+13	。	。	PUNCT	.	_	2	punct	_	start_char=19|end_char=20|SpaceAfter=No
+
+# sent_id = 96
+# text = 伊毋去病院予醫生看，甘願買藥草仔烏白食。
+1	伊毋	伊毋	PROPN	NNP	_	4	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	去	去	VERB	VV	_	4	advcl	_	start_char=2|end_char=3|SpaceAfter=No
+3	病院	病院	NOUN	NN	_	2	obj	_	start_char=3|end_char=5|SpaceAfter=No
+4	予	予	VERB	VV	Voice=Cau	8	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+5	醫生	醫生	NOUN	NN	_	6	nsubj	_	start_char=6|end_char=8|SpaceAfter=No
+6	看	看	VERB	VV	_	4	ccomp	_	start_char=8|end_char=9|SpaceAfter=No
+7	，	，	PUNCT	,	_	4	punct	_	start_char=9|end_char=10|SpaceAfter=No
+8	甘願	甘願	VERB	VV	_	12	advcl	_	start_char=10|end_char=12|SpaceAfter=No
+9	買藥	買藥	VERB	VV	_	12	advcl	_	start_char=12|end_char=14|SpaceAfter=No
+10	草仔	草仔	VERB	VV	_	11	compound	_	start_char=14|end_char=16|SpaceAfter=No
+11	烏	烏	PART	SFN	_	9	obj	_	start_char=16|end_char=17|SpaceAfter=No
+12	白食	白食	VERB	VV	_	0	root	_	start_char=17|end_char=19|SpaceAfter=No
+13	。	。	PUNCT	.	_	12	punct	_	start_char=19|end_char=20|SpaceAfter=No
+
+# sent_id = 97
+# text = 醫生叫你生冷較莫食，你閣食冰？
+1	醫生	醫生	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	叫	叫	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	你	你	PRON	PRP	Person=2	7	nsubj	_	start_char=3|end_char=4|SpaceAfter=No
+4	生	生	VERB	VV	_	2	ccomp	_	start_char=4|end_char=5|SpaceAfter=No
+5	冷	冷	NOUN	NN	_	4	obj	_	start_char=5|end_char=6|SpaceAfter=No
+6	較	較	ADV	RB	_	7	advmod	_	start_char=6|end_char=7|SpaceAfter=No
+7	莫食	莫食	VERB	VV	_	2	ccomp	_	start_char=7|end_char=9|SpaceAfter=No
+8	，	，	PUNCT	,	_	10	punct	_	start_char=9|end_char=10|SpaceAfter=No
+9	你閣	你閣	NOUN	NN	_	10	nsubj	_	start_char=10|end_char=12|SpaceAfter=No
+10	食冰	食冰	VERB	VV	_	2	parataxis	_	start_char=12|end_char=14|SpaceAfter=No
+11	？	？	PUNCT	.	_	10	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 98
+# text = 下昏暗干焦𪜶兩姊妹仔顧厝，半暝雄雄聽著客廳有跤步聲，兩人驚甲圇痀去。
+1	下昏	下昏	NOUN	NN	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	暗	暗	PART	SFN	_	4	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	干焦	干焦	PROPN	NNP	_	2	appos	_	start_char=3|end_char=5|SpaceAfter=No
+4	𪜶	𪜶	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+5	兩	兩	NUM	CD	NumType=Card	6	nummod	_	start_char=6|end_char=7|SpaceAfter=No
+6	姊妹	姊妹	NOUN	NN	_	4	obj	_	start_char=7|end_char=9|SpaceAfter=No
+7	仔顧	仔顧	PROPN	NNP	_	8	compound	_	start_char=9|end_char=11|SpaceAfter=No
+8	厝	厝	PART	SFN	_	4	obj	_	start_char=11|end_char=12|SpaceAfter=No
+9	，	，	PUNCT	,	_	13	punct	_	start_char=12|end_char=13|SpaceAfter=No
+10	半	半	NUM	CD	NumType=Card	11	nummod	_	start_char=13|end_char=14|SpaceAfter=No
+11	暝	暝	NOUN	NN	_	12	nmod	_	start_char=14|end_char=15|SpaceAfter=No
+12	雄雄	雄雄	NOUN	NN	_	13	nsubj	_	start_char=15|end_char=17|SpaceAfter=No
+13	聽	聽	VERB	VV	_	4	parataxis	_	start_char=17|end_char=18|SpaceAfter=No
+14	著	著	AUX	AS	Aspect=Prog	13	aux	_	start_char=18|end_char=19|SpaceAfter=No
+15	客廳	客廳	NOUN	NN	_	16	nsubj	_	start_char=19|end_char=21|SpaceAfter=No
+16	有	有	VERB	VV	_	4	parataxis	_	start_char=21|end_char=22|SpaceAfter=No
+17	跤	跤	NOUN	NN	_	18	nmod	_	start_char=22|end_char=23|SpaceAfter=No
+18	步聲	步聲	NOUN	NN	_	16	obj	_	start_char=23|end_char=25|SpaceAfter=No
+19	，	，	PUNCT	,	_	23	punct	_	start_char=25|end_char=26|SpaceAfter=No
+20	兩	兩	NUM	CD	NumType=Card	21	nummod	_	start_char=26|end_char=27|SpaceAfter=No
+21	人	人	NOUN	NN	_	23	nsubj	_	start_char=27|end_char=28|SpaceAfter=No
+22	驚甲	驚甲	ADV	RB	_	23	advmod	_	start_char=28|end_char=30|SpaceAfter=No
+23	圇	圇	VERB	VV	_	4	parataxis	_	start_char=30|end_char=31|SpaceAfter=No
+24	痀	痀	SCONJ	RB	_	25	mark	_	start_char=31|end_char=32|SpaceAfter=No
+25	去	去	VERB	VV	_	23	xcomp	_	start_char=32|end_char=33|SpaceAfter=No
+26	。	。	PUNCT	.	_	4	punct	_	start_char=33|end_char=34|SpaceAfter=No
+
+# sent_id = 99
+# text = 阿媽逐擺去廟裡拜拜，攏會祈求厝裡大細漢平安順序。
+1	阿媽	阿媽	PROPN	NNP	_	2	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	逐擺	逐擺	NOUN	NN	_	10	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+3	去	去	VERB	VV	_	6	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+4	廟	廟	NOUN	NN	_	3	obj	_	start_char=5|end_char=6|SpaceAfter=No
+5	裡	裡	NOUN	NN	_	4	acl	_	start_char=6|end_char=7|SpaceAfter=No
+6	拜拜	拜拜	VERB	VV	_	10	advcl	_	start_char=7|end_char=9|SpaceAfter=No
+7	，	，	PUNCT	,	_	6	punct	_	start_char=9|end_char=10|SpaceAfter=No
+8	攏	攏	SCONJ	RB	_	10	mark	_	start_char=10|end_char=11|SpaceAfter=No
+9	會	會	AUX	MD	_	10	aux	_	start_char=11|end_char=12|SpaceAfter=No
+10	祈求	祈求	VERB	VV	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+11	厝裡	厝裡	PROPN	NNP	_	15	nmod	_	start_char=14|end_char=16|SpaceAfter=No
+12	大	大	PART	PFA	_	13	case	_	start_char=16|end_char=17|SpaceAfter=No
+13	細漢	細漢	NOUN	NN	_	15	nmod	_	start_char=17|end_char=19|SpaceAfter=No
+14	平安	平安	PROPN	NNP	_	15	nmod	_	start_char=19|end_char=21|SpaceAfter=No
+15	順序	順序	NOUN	NN	_	10	obj	_	start_char=21|end_char=23|SpaceAfter=No
+16	。	。	PUNCT	.	_	10	punct	_	start_char=23|end_char=24|SpaceAfter=No
+
+# sent_id = 100
+# text = 阿勇共警察烏西，叫伊莫開罰單。
+1	阿勇	阿勇	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	共	共	PROPN	NNP	_	3	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	警察	警察	NOUN	NN	_	8	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+4	烏西	烏西	PROPN	NNP	_	3	appos	_	start_char=5|end_char=7|SpaceAfter=No
+5	，	，	PUNCT	,	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+6	叫	叫	VERB	VV	_	8	advcl	_	start_char=8|end_char=9|SpaceAfter=No
+7	伊莫	伊莫	PROPN	NNP	_	6	obj	_	start_char=9|end_char=11|SpaceAfter=No
+8	開	開	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+9	罰	罰	NOUN	NN	_	8	obj	_	start_char=12|end_char=13|SpaceAfter=No
+10	單	單	NUM	CD	NumType=Card	9	acl	_	start_char=13|end_char=14|SpaceAfter=No
+11	。	。	PUNCT	.	_	8	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 101
+# text = 921彼擺塗牛翻身，幌甲真嚴重，連臺北的大樓都搖甲倒去。
+1	921	921	NUM	CD	NumType=Card	2	nummod	_	start_char=0|end_char=3|SpaceAfter=No
+2	彼擺塗牛	彼擺塗牛	NOUN	NN	_	3	nsubj	_	start_char=3|end_char=7|SpaceAfter=No
+3	翻身	翻身	VERB	VV	_	0	root	_	start_char=7|end_char=9|SpaceAfter=No
+4	，	，	PUNCT	,	_	7	punct	_	start_char=9|end_char=10|SpaceAfter=No
+5	幌甲	幌甲	PROPN	NNP	_	7	nsubj	_	start_char=10|end_char=12|SpaceAfter=No
+6	真	真	ADV	RB	_	7	advmod	_	start_char=12|end_char=13|SpaceAfter=No
+7	嚴重	嚴重	ADJ	JJ	_	3	parataxis	_	start_char=13|end_char=15|SpaceAfter=No
+8	，	，	PUNCT	,	_	14	punct	_	start_char=15|end_char=16|SpaceAfter=No
+9	連	連	ADV	RB	_	10	advmod	_	start_char=16|end_char=17|SpaceAfter=No
+10	臺北	臺北	PROPN	NNP	_	12	nmod	_	start_char=17|end_char=19|SpaceAfter=No
+11	的	的	PART	DEC	Case=Gen	10	case	_	start_char=19|end_char=20|SpaceAfter=No
+12	大樓	大樓	NOUN	NN	_	14	nsubj	_	start_char=20|end_char=22|SpaceAfter=No
+13	都	都	SCONJ	RB	_	14	mark	_	start_char=22|end_char=23|SpaceAfter=No
+14	搖甲	搖甲	VERB	VV	_	3	parataxis	_	start_char=23|end_char=25|SpaceAfter=No
+15	倒去	倒去	VERB	VV	_	14	xcomp	_	start_char=25|end_char=27|SpaceAfter=No
+16	。	。	PUNCT	.	_	3	punct	_	start_char=27|end_char=28|SpaceAfter=No
+
+# sent_id = 102
+# text = 我𬦰樓梯無細膩，靠著跤胴，疼甲欲死！
+1	我	我	PRON	PRP	Person=1	3	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	𬦰	𬦰	PART	DEC	Case=Gen	1	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	樓梯	樓梯	NOUN	NN	_	9	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+4	無	無	VERB	VV	_	9	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+5	細膩	細膩	ADJ	JJ	_	4	xcomp	_	start_char=5|end_char=7|SpaceAfter=No
+6	，	，	PUNCT	,	_	4	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	靠	靠	VERB	VV	_	9	advcl	_	start_char=8|end_char=9|SpaceAfter=No
+8	著	著	AUX	AS	Aspect=Prog	7	aux	_	start_char=9|end_char=10|SpaceAfter=No
+9	跤胴	跤胴	VERB	VV	_	0	root	_	start_char=10|end_char=12|SpaceAfter=No
+10	，	，	PUNCT	,	_	13	punct	_	start_char=12|end_char=13|SpaceAfter=No
+11	疼甲	疼甲	PROPN	NNP	_	13	nsubj	_	start_char=13|end_char=15|SpaceAfter=No
+12	欲	欲	AUX	MD	_	13	aux	_	start_char=15|end_char=16|SpaceAfter=No
+13	死	死	VERB	VV	_	9	parataxis	_	start_char=16|end_char=17|SpaceAfter=No
+14	！	！	PUNCT	.	_	9	punct	_	start_char=17|end_char=18|SpaceAfter=No
+
+# sent_id = 103
+# text = 伊欲共一樓提來做店面。
+1	伊	伊	PROPN	NNP	_	7	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	欲	欲	AUX	MD	_	7	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	共	共	ADV	RB	_	7	advmod	_	start_char=2|end_char=3|SpaceAfter=No
+4	一	一	NUM	CD	NumType=Card	5	nummod	_	start_char=3|end_char=4|SpaceAfter=No
+5	樓	樓	NOUN	NN	_	7	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+6	提來	提來	VERB	VV	_	7	advcl	_	start_char=5|end_char=7|SpaceAfter=No
+7	做	做	VERB	VV	_	0	root	_	start_char=7|end_char=8|SpaceAfter=No
+8	店面	店面	NOUN	NN	_	7	obj	_	start_char=8|end_char=10|SpaceAfter=No
+9	。	。	PUNCT	.	_	7	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 104
+# text = 二樓的雨遮害去矣，愛倩人來看覓咧。
+1	二	二	NUM	CD	NumType=Card	2	nummod	_	start_char=0|end_char=1|SpaceAfter=No
+2	樓	樓	NOUN	NN	_	4	nmod	_	start_char=1|end_char=2|SpaceAfter=No
+3	的	的	PART	DEC	Case=Gen	2	case	_	start_char=2|end_char=3|SpaceAfter=No
+4	雨遮害	雨遮害	NOUN	NN	_	12	nsubj	_	start_char=3|end_char=6|SpaceAfter=No
+5	去	去	SCONJ	RB	_	6	mark	_	start_char=6|end_char=7|SpaceAfter=No
+6	矣	矣	VERB	VV	_	12	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+7	，	，	PUNCT	,	_	6	punct	_	start_char=8|end_char=9|SpaceAfter=No
+8	愛	愛	VERB	VV	_	12	advcl	_	start_char=9|end_char=10|SpaceAfter=No
+9	倩	倩	PROPN	NNP	_	10	compound	_	start_char=10|end_char=11|SpaceAfter=No
+10	人	人	PART	SFN	_	8	obj	_	start_char=11|end_char=12|SpaceAfter=No
+11	來	來	SCONJ	RB	_	12	mark	_	start_char=12|end_char=13|SpaceAfter=No
+12	看	看	VERB	VV	_	0	root	_	start_char=13|end_char=14|SpaceAfter=No
+13	覓咧	覓咧	VERB	VV	_	12	xcomp	_	start_char=14|end_char=16|SpaceAfter=No
+14	。	。	PUNCT	.	_	12	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 105
+# text = 阮兜門跤口囥一堆磚仔角。
+1	阮	阮	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	兜門	兜門	PROPN	NNP	_	3	nmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	跤口	跤口	NOUN	NN	_	4	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+4	囥	囥	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+5	一堆	一堆	NUM	CD	NumType=Card	7	nummod	_	start_char=6|end_char=8|SpaceAfter=No
+6	磚仔	磚仔	NOUN	NN	_	7	compound	_	start_char=8|end_char=10|SpaceAfter=No
+7	角	角	PART	SFN	_	4	obj	_	start_char=10|end_char=11|SpaceAfter=No
+8	。	。	PUNCT	.	_	4	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 106
+# text = 公車佇車牌仔跤擋恬，予人客落車。
+1	公車	公車	NOUN	NN	_	8	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	佇車	佇車	VERB	VV	_	8	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+3	牌仔	牌仔	PROPN	NNP	_	4	compound	_	start_char=4|end_char=6|SpaceAfter=No
+4	跤	跤	PART	SFN	_	2	obj	_	start_char=6|end_char=7|SpaceAfter=No
+5	擋	擋	VERB	VV	_	8	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+6	恬	恬	PROPN	NNP	_	5	obj	_	start_char=8|end_char=9|SpaceAfter=No
+7	，	，	PUNCT	,	_	5	punct	_	start_char=9|end_char=10|SpaceAfter=No
+8	予	予	VERB	VV	Voice=Cau	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+9	人客	人客	NOUN	NN	_	10	nsubj	_	start_char=11|end_char=13|SpaceAfter=No
+10	落車	落車	VERB	VV	_	8	ccomp	_	start_char=13|end_char=15|SpaceAfter=No
+11	。	。	PUNCT	.	_	8	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 107
+# text = 寒甲擋袂牢。
+1	寒甲	寒甲	PROPN	NNP	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	擋	擋	PART	SFN	_	3	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	袂牢	袂牢	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	。	。	PUNCT	.	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 108
+# text = 你共我擋咧。
+1	你	你	PRON	PRP	Person=2	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	共	共	ADV	RB	_	4	advmod	_	start_char=1|end_char=2|SpaceAfter=No
+3	我	我	PRON	PRP	Person=1	4	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+4	擋咧	擋咧	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+5	。	。	PUNCT	.	_	4	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 109
+# text = 你緊共伊擋咧！
+1	你	你	PRON	PRP	Person=2	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	緊共	緊共	ADV	RB	_	3	advmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	伊擋咧	伊擋咧	PROPN	NNP	_	0	root	_	start_char=3|end_char=6|SpaceAfter=No
+4	！	！	PUNCT	.	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 110
+# text = 這搭會洩水，貼佇頂頭的紙久來就會藃蟶。
+1	這	這	DET	DT	_	3	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	搭會	搭會	NOUN	NN	_	3	nmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	洩水	洩水	NOUN	NN	_	12	obl	_	start_char=3|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	貼佇	貼佇	VERB	VV	_	8	acl:relcl	_	start_char=6|end_char=8|SpaceAfter=No
+6	頂頭	頂頭	NOUN	NN	_	5	obj	_	start_char=8|end_char=10|SpaceAfter=No
+7	的	的	SCONJ	DEC	_	5	mark:rel	_	start_char=10|end_char=11|SpaceAfter=No
+8	紙久	紙久	NOUN	NN	_	12	nsubj	_	start_char=11|end_char=13|SpaceAfter=No
+9	來	來	SCONJ	RB	_	12	mark	_	start_char=13|end_char=14|SpaceAfter=No
+10	就	就	SCONJ	RB	_	12	mark	_	start_char=14|end_char=15|SpaceAfter=No
+11	會	會	AUX	MD	_	12	aux	_	start_char=15|end_char=16|SpaceAfter=No
+12	藃	藃	VERB	VV	_	0	root	_	start_char=16|end_char=17|SpaceAfter=No
+13	蟶	蟶	NOUN	NN	_	12	obj	_	start_char=17|end_char=18|SpaceAfter=No
+14	。	。	PUNCT	.	_	12	punct	_	start_char=18|end_char=19|SpaceAfter=No
+
+# sent_id = 111
+# text = 阿公定定佇阮厝後的竹模跤歇涼。
+1	阿公定	阿公定	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	定	定	VERB	VV	_	8	acl:relcl	_	start_char=3|end_char=4|SpaceAfter=No
+3	佇	佇	VERB	VV	_	2	mark	_	start_char=4|end_char=5|SpaceAfter=No
+4	阮	阮	PROPN	NNP	_	3	obj	_	start_char=5|end_char=6|SpaceAfter=No
+5	厝	厝	PROPN	NNP	_	4	flat:name	_	start_char=6|end_char=7|SpaceAfter=No
+6	後	後	ADP	IN	_	2	mark	_	start_char=7|end_char=8|SpaceAfter=No
+7	的	的	SCONJ	DEC	_	2	mark:rel	_	start_char=8|end_char=9|SpaceAfter=No
+8	竹模	竹模	NOUN	NN	_	0	root	_	start_char=9|end_char=11|SpaceAfter=No
+9	跤歇涼	跤歇涼	PROPN	NNP	_	8	appos	_	start_char=11|end_char=14|SpaceAfter=No
+10	。	。	PUNCT	.	_	2	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 112
+# text = 囡仔出癖，姑不將予伊佇厝裡歇睏。
+1	囡仔	囡仔	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	出	出	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	癖	癖	NOUN	NN	_	2	obj	_	start_char=3|end_char=4|SpaceAfter=No
+4	，	，	PUNCT	,	_	7	punct	_	start_char=4|end_char=5|SpaceAfter=No
+5	姑	姑	NOUN	NN	_	7	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+6	不	不	ADV	RB	Polarity=Neg	7	advmod	_	start_char=6|end_char=7|SpaceAfter=No
+7	將予	將予	VERB	VV	_	2	parataxis	_	start_char=7|end_char=9|SpaceAfter=No
+8	伊佇厝裡歇睏	伊佇厝裡歇睏	PROPN	NNP	_	7	obj	_	start_char=9|end_char=15|SpaceAfter=No
+9	。	。	PUNCT	.	_	2	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 113
+# text = 我口試講甲離離落落，一定考袂牢。
+1	我	我	PRON	PRP	Person=1	2	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	口試	口試	NOUN	NN	_	9	nsubj	_	start_char=1|end_char=3|SpaceAfter=No
+3	講甲	講甲	VERB	VV	_	9	advcl	_	start_char=3|end_char=5|SpaceAfter=No
+4	離離	離離	VERB	VV	_	3	xcomp	_	start_char=5|end_char=7|SpaceAfter=No
+5	落落	落落	ADJ	JJ	_	3	xcomp	_	start_char=7|end_char=9|SpaceAfter=No
+6	，	，	PUNCT	,	_	3	punct	_	start_char=9|end_char=10|SpaceAfter=No
+7	一定	一定	ADV	RB	_	9	advmod	_	start_char=10|end_char=12|SpaceAfter=No
+8	考袂	考袂	VERB	VV	_	9	advcl	_	start_char=12|end_char=14|SpaceAfter=No
+9	牢	牢	VERB	VV	_	0	root	_	start_char=14|end_char=15|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 114
+# text = 汗流甲規身軀黏黐黐。
+1	汗流	汗流	NOUN	NN	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	甲規	甲規	NOUN	NN	_	3	nmod	_	start_char=2|end_char=4|SpaceAfter=No
+3	身軀	身軀	NOUN	NN	_	6	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+4	黏	黏	VERB	VV	_	6	advcl	_	start_char=6|end_char=7|SpaceAfter=No
+5	黐	黐	VERB	VV	_	6	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+6	黐	黐	VERB	VV	_	0	root	_	start_char=8|end_char=9|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 115
+# text = 阿母叫你莫佇塗跤蟯蟯趖，你無聽著是毋？
+1	阿母	阿母	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	叫	叫	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	你	你	PRON	PRP	Person=2	4	nmod	_	start_char=3|end_char=4|SpaceAfter=No
+4	莫	莫	NOUN	NN	_	5	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	佇	佇	VERB	VV	_	2	ccomp	_	start_char=5|end_char=6|SpaceAfter=No
+6	塗跤	塗跤	VERB	VV	_	5	xcomp	_	start_char=6|end_char=8|SpaceAfter=No
+7	蟯	蟯	NOUN	NN	_	9	nmod	_	start_char=8|end_char=9|SpaceAfter=No
+8	蟯	蟯	NOUN	NN	_	9	compound	_	start_char=9|end_char=10|SpaceAfter=No
+9	趖	趖	PART	SFN	_	5	obj	_	start_char=10|end_char=11|SpaceAfter=No
+10	，	，	PUNCT	,	_	12	punct	_	start_char=11|end_char=12|SpaceAfter=No
+11	你	你	PRON	PRP	Person=2	12	nsubj	_	start_char=12|end_char=13|SpaceAfter=No
+12	無	無	VERB	VV	_	2	parataxis	_	start_char=13|end_char=14|SpaceAfter=No
+13	聽	聽	VERB	VV	_	12	xcomp	_	start_char=14|end_char=15|SpaceAfter=No
+14	著	著	AUX	AS	Aspect=Prog	12	aux	_	start_char=15|end_char=16|SpaceAfter=No
+15	是	是	AUX	VC	_	12	ccomp	_	start_char=16|end_char=17|SpaceAfter=No
+16	毋	毋	PART	UH	_	12	discourse:sp	_	start_char=17|end_char=18|SpaceAfter=No
+17	？	？	PUNCT	.	_	12	punct	_	start_char=18|end_char=19|SpaceAfter=No
+
+# sent_id = 116
+# text = 我無聽著你咧講啥。
+1	我	我	PRON	PRP	Person=1	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	無	無	VERB	VV	_	0	root	_	start_char=1|end_char=2|SpaceAfter=No
+3	聽	聽	VERB	VV	_	2	xcomp	_	start_char=2|end_char=3|SpaceAfter=No
+4	著	著	AUX	AS	Aspect=Prog	3	aux	_	start_char=3|end_char=4|SpaceAfter=No
+5	你	你	PRON	PRP	Person=2	7	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+6	咧	咧	AUX	MD	_	7	aux	_	start_char=5|end_char=6|SpaceAfter=No
+7	講啥	講啥	VERB	VV	_	2	ccomp	_	start_char=6|end_char=8|SpaceAfter=No
+8	。	。	PUNCT	.	_	2	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 117
+# text = 我若無拆破予你聽，你就毋捌。
+1	我	我	PRON	PRP	Person=1	12	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	若	若	ADP	IN	_	5	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	無	無	VERB	VV	_	5	advcl	_	start_char=2|end_char=3|SpaceAfter=No
+4	拆破	拆破	NOUN	NN	_	3	obj	_	start_char=3|end_char=5|SpaceAfter=No
+5	予	予	VERB	VV	_	12	ccomp	_	start_char=5|end_char=6|SpaceAfter=No
+6	你	你	PRON	PRP	Person=2	7	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+7	聽	聽	VERB	VV	_	5	ccomp	_	start_char=7|end_char=8|SpaceAfter=No
+8	，	，	PUNCT	,	_	5	punct	_	start_char=8|end_char=9|SpaceAfter=No
+9	你	你	PRON	PRP	Person=2	12	nsubj	_	start_char=9|end_char=10|SpaceAfter=No
+10	就	就	SCONJ	RB	_	12	mark	_	start_char=10|end_char=11|SpaceAfter=No
+11	毋	毋	AUX	MD	_	12	aux	_	start_char=11|end_char=12|SpaceAfter=No
+12	捌	捌	NUM	CD	NumType=Card	0	root	_	start_char=12|end_char=13|SpaceAfter=No
+13	。	。	PUNCT	.	_	12	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 118
+# text = 我才無欲聽你咧烏白講。
+1	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	才	才	SCONJ	RB	_	3	mark	_	start_char=1|end_char=2|SpaceAfter=No
+3	無	無	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+4	欲	欲	AUX	MD	_	6	aux	_	start_char=3|end_char=4|SpaceAfter=No
+5	聽你咧烏白	聽你咧烏白	VERB	VV	_	6	advcl	_	start_char=4|end_char=9|SpaceAfter=No
+6	講	講	VERB	VV	_	3	xcomp	_	start_char=9|end_char=10|SpaceAfter=No
+7	。	。	PUNCT	.	_	3	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 119
+# text = 彼是某人講予我聽的。
+1	彼是	是	VERB	VC	_	0	root	_	start_char=0|end_char=2|SpaceAfter=No
+2	某人	某人	PRON	PRD	_	3	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+3	講予	講予	VERB	VV	_	1	ccomp	_	start_char=4|end_char=6|SpaceAfter=No
+4	我	我	PRON	PRP	Person=1	5	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+5	聽	聽	VERB	VV	_	3	ccomp	_	start_char=7|end_char=8|SpaceAfter=No
+6	的	的	PART	UH	_	1	discourse	_	start_char=8|end_char=9|SpaceAfter=No
+7	。	。	PUNCT	.	_	1	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 120
+# text = 伊覕佇門後咧偷聽人講話。
+1	伊覕佇門	伊覕佇門	PROPN	NNP	_	4	nsubj	_	start_char=0|end_char=4|SpaceAfter=No
+2	後	後	ADP	IN	_	1	case	_	start_char=4|end_char=5|SpaceAfter=No
+3	咧	咧	ADV	RB	_	4	advmod	_	start_char=5|end_char=6|SpaceAfter=No
+4	偷聽	偷聽	VERB	VV	_	0	root	_	start_char=6|end_char=8|SpaceAfter=No
+5	人	人	NOUN	NN	_	6	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+6	講話	講話	VERB	VV	_	4	ccomp	_	start_char=9|end_char=11|SpaceAfter=No
+7	。	。	PUNCT	.	_	4	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 121
+# text = 我毋捌出國過。
+1	我	我	PRON	PRP	Person=1	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	毋	毋	AUX	MD	_	4	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	捌	捌	NOUN	NN	_	4	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+4	出國	出國	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+5	過	過	AUX	AS	Aspect=Perf	4	aux	_	start_char=5|end_char=6|SpaceAfter=No
+6	。	。	PUNCT	.	_	4	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 122
+# text = 我這久無閒，袂走閃得。
+1	我	我	PRON	PRP	Person=1	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	這	這	DET	DT	_	3	det	_	start_char=1|end_char=2|SpaceAfter=No
+3	久	久	NOUN	NN	_	4	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+4	無閒	無閒	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+5	，	，	PUNCT	,	_	8	punct	_	start_char=5|end_char=6|SpaceAfter=No
+6	袂	袂	PROPN	NNP	_	8	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+7	走	走	VERB	VV	_	8	advcl	_	start_char=7|end_char=8|SpaceAfter=No
+8	閃得	閃得	VERB	VV	_	4	parataxis	_	start_char=8|end_char=10|SpaceAfter=No
+9	。	。	PUNCT	.	_	4	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 123
+# text = 伊看著我來就緊閃開。
+1	伊看	伊看	VERB	VV	_	6	advcl	_	start_char=0|end_char=2|SpaceAfter=No
+2	著	著	AUX	AS	Aspect=Prog	1	aux	_	start_char=2|end_char=3|SpaceAfter=No
+3	我	我	PRON	PRP	Person=1	1	obj	_	start_char=3|end_char=4|SpaceAfter=No
+4	來	來	ADP	IN	_	3	case	_	start_char=4|end_char=5|SpaceAfter=No
+5	就	就	SCONJ	RB	_	6	mark	_	start_char=5|end_char=6|SpaceAfter=No
+6	緊	緊	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+7	閃開	閃開	VERB	VV	_	6	xcomp	_	start_char=7|end_char=9|SpaceAfter=No
+8	。	。	PUNCT	.	_	6	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 124
+# text = 你閃較邊仔咧！
+1	你	你	PRON	PRP	Person=2	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	閃	閃	VERB	VV	_	0	root	_	start_char=1|end_char=2|SpaceAfter=No
+3	較邊仔咧	較邊仔咧	PROPN	NNP	_	2	obj	_	start_char=2|end_char=6|SpaceAfter=No
+4	！	！	PUNCT	.	_	2	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 125
+# text = 所在無夠闊，物件愛相疊才袂鎮位。
+1	所	所	SCONJ	RB	_	2	mark	_	start_char=0|end_char=1|SpaceAfter=No
+2	在	在	VERB	VV	_	4	amod	_	start_char=1|end_char=2|SpaceAfter=No
+3	無夠	無夠	NOUN	NN	_	4	compound	_	start_char=2|end_char=4|SpaceAfter=No
+4	闊	闊	PART	SFN	_	11	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	，	，	PUNCT	,	_	4	punct	_	start_char=5|end_char=6|SpaceAfter=No
+6	物件	物件	NOUN	NN	_	11	nsubj	_	start_char=6|end_char=8|SpaceAfter=No
+7	愛	愛	VERB	VV	_	11	advcl	_	start_char=8|end_char=9|SpaceAfter=No
+8	相疊	相疊	VERB	VV	_	7	xcomp	_	start_char=9|end_char=11|SpaceAfter=No
+9	才	才	SCONJ	RB	_	11	mark	_	start_char=11|end_char=12|SpaceAfter=No
+10	袂	袂	AUX	MD	_	11	aux	_	start_char=12|end_char=13|SpaceAfter=No
+11	鎮位	鎮位	VERB	VV	_	0	root	_	start_char=13|end_char=15|SpaceAfter=No
+12	。	。	PUNCT	.	_	11	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 126
+# text = 我的胸坎實實，人真無爽快。
+1	我	我	PRON	PRP	Person=1	3	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	胸坎	胸坎	NOUN	NN	_	4	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+4	實實	實實	ADJ	JJ	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+5	，	，	PUNCT	,	_	9	punct	_	start_char=6|end_char=7|SpaceAfter=No
+6	人	人	NOUN	NN	_	9	nsubj	_	start_char=7|end_char=8|SpaceAfter=No
+7	真無	真無	ADJ	JJ	_	9	advcl	_	start_char=8|end_char=10|SpaceAfter=No
+8	爽	爽	ADJ	JJ	_	9	advcl	_	start_char=10|end_char=11|SpaceAfter=No
+9	快	快	ADJ	JJ	_	4	parataxis	_	start_char=11|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	4	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 127
+# text = 這間倉庫的貨疊甲實實，欲過連甲一个跤路都無。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	間	間	NOUN	NNB	_	3	clf	_	start_char=1|end_char=2|SpaceAfter=No
+3	倉庫	倉庫	NOUN	NN	_	6	nmod	_	start_char=2|end_char=4|SpaceAfter=No
+4	的	的	PART	DEC	Case=Gen	3	case	_	start_char=4|end_char=5|SpaceAfter=No
+5	貨疊	貨疊	NOUN	NN	_	6	compound	_	start_char=5|end_char=7|SpaceAfter=No
+6	甲	甲	PART	SFN	_	7	nsubj	_	start_char=7|end_char=8|SpaceAfter=No
+7	實實	實實	ADJ	JJ	_	9	advcl	_	start_char=8|end_char=10|SpaceAfter=No
+8	，	，	PUNCT	,	_	7	punct	_	start_char=10|end_char=11|SpaceAfter=No
+9	欲	欲	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+10	過	過	AUX	AS	Aspect=Perf	9	aux	_	start_char=12|end_char=13|SpaceAfter=No
+11	連甲	連甲	VERB	VV	_	16	advcl	_	start_char=13|end_char=15|SpaceAfter=No
+12	一	一	NUM	CD	NumType=Card	14	nummod	_	start_char=15|end_char=16|SpaceAfter=No
+13	个	个	NOUN	NNB	_	12	clf	_	start_char=16|end_char=17|SpaceAfter=No
+14	跤路	跤路	NOUN	NN	_	11	obj	_	start_char=17|end_char=19|SpaceAfter=No
+15	都	都	SCONJ	RB	_	16	mark	_	start_char=19|end_char=20|SpaceAfter=No
+16	無	無	VERB	VV	_	9	ccomp	_	start_char=20|end_char=21|SpaceAfter=No
+17	。	。	PUNCT	.	_	9	punct	_	start_char=21|end_char=22|SpaceAfter=No
+
+# sent_id = 128
+# text = 這罐咖啡囥傷久，已經走味去矣。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	罐	罐	NOUN	NNB	_	3	clf	_	start_char=1|end_char=2|SpaceAfter=No
+3	咖啡	咖啡	NOUN	NN	_	9	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+4	囥	囥	VERB	VV	_	9	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+5	傷久	傷久	PROPN	NNP	_	4	obj	_	start_char=5|end_char=7|SpaceAfter=No
+6	，	，	PUNCT	,	_	4	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	已經	已經	ADV	RB	_	8	advmod	_	start_char=8|end_char=10|SpaceAfter=No
+8	走味	走味	VERB	VV	_	9	advcl	_	start_char=10|end_char=12|SpaceAfter=No
+9	去矣	去矣	VERB	VV	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 129
+# text = 這種物件菜市仔少缺，免驚買無。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	種	種	NOUN	NNB	_	5	clf	_	start_char=1|end_char=2|SpaceAfter=No
+3	物件	物件	NOUN	NN	_	4	compound	_	start_char=2|end_char=4|SpaceAfter=No
+4	菜	菜	PART	SFN	_	5	nmod	_	start_char=4|end_char=5|SpaceAfter=No
+5	市仔	市仔	NOUN	NN	_	6	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+6	少缺	少缺	VERB	VV	_	9	advcl	_	start_char=7|end_char=9|SpaceAfter=No
+7	，	，	PUNCT	,	_	6	punct	_	start_char=9|end_char=10|SpaceAfter=No
+8	免驚	免驚	ADV	RB	_	9	advmod	_	start_char=10|end_char=12|SpaceAfter=No
+9	買無	買無	VERB	VV	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 130
+# text = 伊後尾才來。
+1	伊後尾	伊後尾	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	才	才	SCONJ	RB	_	3	mark	_	start_char=3|end_char=4|SpaceAfter=No
+3	來	來	VERB	VV	_	0	root	_	start_char=4|end_char=5|SpaceAfter=No
+4	。	。	PUNCT	.	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 131
+# text = 伊徛佇後尾。
+1	伊徛佇	伊徛佇	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	後尾	後尾	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+3	。	。	PUNCT	.	_	2	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 132
+# text = 慢慢仔啉，才袂去嗾著。
+1	慢慢	慢慢	ADV	RB	_	2	advmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	仔啉	仔啉	VERB	VV	_	7	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+3	，	，	PUNCT	,	_	2	punct	_	start_char=4|end_char=5|SpaceAfter=No
+4	才	才	SCONJ	RB	_	7	mark	_	start_char=5|end_char=6|SpaceAfter=No
+5	袂	袂	PROPN	NNP	_	7	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	去	去	SCONJ	RB	_	7	mark	_	start_char=7|end_char=8|SpaceAfter=No
+7	嗾	嗾	VERB	VV	_	0	root	_	start_char=8|end_char=9|SpaceAfter=No
+8	著	著	AUX	AS	Aspect=Prog	7	aux	_	start_char=9|end_char=10|SpaceAfter=No
+9	。	。	PUNCT	.	_	7	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 133
+# text = 你行較慢咧我毋才綴會著。
+1	你	你	PRON	PRP	Person=2	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	行較	行較	VERB	VV	_	3	advcl	_	start_char=1|end_char=3|SpaceAfter=No
+3	慢咧	慢咧	VERB	VV	_	7	advcl	_	start_char=3|end_char=5|SpaceAfter=No
+4	我	我	PRON	PRP	Person=1	7	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+5	毋	毋	AUX	MD	_	7	aux	_	start_char=6|end_char=7|SpaceAfter=No
+6	才	才	SCONJ	RB	_	7	mark	_	start_char=7|end_char=8|SpaceAfter=No
+7	綴	綴	VERB	VV	_	0	root	_	start_char=8|end_char=9|SpaceAfter=No
+8	會	會	AUX	MD	_	7	aux	_	start_char=9|end_char=10|SpaceAfter=No
+9	著	著	AUX	AS	Aspect=Prog	7	aux	_	start_char=10|end_char=11|SpaceAfter=No
+10	。	。	PUNCT	.	_	7	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 134
+# text = 這款的買賣我按怎算都袂和。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	款	款	NOUN	NNB	_	4	obl	_	start_char=1|end_char=2|SpaceAfter=No
+3	的	的	PART	DEC	Case=Gen	2	case	_	start_char=2|end_char=3|SpaceAfter=No
+4	買賣	買賣	VERB	VV	_	9	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+5	我	我	PRON	PRP	Person=1	9	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+6	按	按	ADP	IN	_	7	case	_	start_char=6|end_char=7|SpaceAfter=No
+7	怎算	怎算	NOUN	NN	_	9	obl	_	start_char=7|end_char=9|SpaceAfter=No
+8	都	都	SCONJ	RB	_	9	mark	_	start_char=9|end_char=10|SpaceAfter=No
+9	袂	袂	VERB	VV	_	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+10	和	和	VERB	VV	_	9	xcomp	_	start_char=11|end_char=12|SpaceAfter=No
+11	。	。	PUNCT	.	_	9	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 135
+# text = 𪜶兩人袂和。
+1	𪜶	𪜶	NOUN	NN	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+2	兩	兩	NUM	CD	NumType=Card	3	nummod	_	start_char=1|end_char=2|SpaceAfter=No
+3	人	人	NOUN	NN	_	4	compound	_	start_char=2|end_char=3|SpaceAfter=No
+4	袂	袂	PART	SFN	_	1	appos	_	start_char=3|end_char=4|SpaceAfter=No
+5	和	和	ADP	IN	_	4	case	_	start_char=4|end_char=5|SpaceAfter=No
+6	。	。	PUNCT	.	_	1	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 136
+# text = 今仔日的天氣佮平常無仝款。
+1	今仔	今仔	PROPN	NNP	_	5	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	日	日	PROPN	NNP	_	1	flat:name	_	start_char=2|end_char=3|SpaceAfter=No
+3	的	的	PART	DEC	Case=Gen	1	case	_	start_char=3|end_char=4|SpaceAfter=No
+4	天氣	天氣	NOUN	NN	_	5	compound	_	start_char=4|end_char=6|SpaceAfter=No
+5	佮	佮	PART	SFN	_	7	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	平常	平常	ADV	RB	_	7	advmod	_	start_char=7|end_char=9|SpaceAfter=No
+7	無	無	VERB	VV	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+8	仝	仝	NOUN	NN	_	9	nmod	_	start_char=10|end_char=11|SpaceAfter=No
+9	款	款	NOUN	NNB	_	7	obj	_	start_char=11|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	7	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 137
+# text = 伊的人面真闊，拜託伊就無毋著！
+1	伊	伊	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	人面	人面	NOUN	NN	_	4	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+4	真闊	真闊	ADJ	JJ	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+5	，	，	PUNCT	,	_	8	punct	_	start_char=6|end_char=7|SpaceAfter=No
+6	拜託伊	拜託伊	PROPN	NNP	_	8	nsubj	_	start_char=7|end_char=10|SpaceAfter=No
+7	就	就	SCONJ	RB	_	8	mark	_	start_char=10|end_char=11|SpaceAfter=No
+8	無	無	VERB	VV	_	4	parataxis	_	start_char=11|end_char=12|SpaceAfter=No
+9	毋	毋	VERB	VV	_	8	xcomp	_	start_char=12|end_char=13|SpaceAfter=No
+10	著	著	AUX	AS	Aspect=Prog	8	aux	_	start_char=13|end_char=14|SpaceAfter=No
+11	！	！	PUNCT	.	_	4	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 138
+# text = 人生海海。
+1	人生	人生	NOUN	NN	_	2	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	海海	海海	NOUN	NN	_	0	root	_	start_char=2|end_char=4|SpaceAfter=No
+3	。	。	PUNCT	.	_	2	punct	_	start_char=4|end_char=5|SpaceAfter=No
+
+# sent_id = 139
+# text = 阿母想欲飼一隻狗仔佮伊做伴。
+1	阿母想	阿母想	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	欲	欲	AUX	MD	_	3	aux	_	start_char=3|end_char=4|SpaceAfter=No
+3	飼	飼	VERB	VV	Voice=Cau	0	root	_	start_char=4|end_char=5|SpaceAfter=No
+4	一	一	NUM	CD	NumType=Card	7	nummod	_	start_char=5|end_char=6|SpaceAfter=No
+5	隻	隻	NOUN	NNB	_	4	clf	_	start_char=6|end_char=7|SpaceAfter=No
+6	狗仔	狗仔	NOUN	NN	_	7	nmod	_	start_char=7|end_char=9|SpaceAfter=No
+7	佮	佮	NOUN	NN	_	9	nsubj	_	start_char=9|end_char=10|SpaceAfter=No
+8	伊	伊	PROPN	NNP	_	7	appos	_	start_char=10|end_char=11|SpaceAfter=No
+9	做伴	做伴	VERB	VV	_	3	ccomp	_	start_char=11|end_char=13|SpaceAfter=No
+10	。	。	PUNCT	.	_	3	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 140
+# text = 伊足急性的，無像我遐𠢕拖沙。
+1	伊足	伊足	VERB	VV	_	5	advcl	_	start_char=0|end_char=2|SpaceAfter=No
+2	急性	急性	NOUN	NN	_	1	obj	_	start_char=2|end_char=4|SpaceAfter=No
+3	的	的	PART	UH	_	1	discourse	_	start_char=4|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	1	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	無	無	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+6	像	像	VERB	VV	_	5	xcomp	_	start_char=7|end_char=8|SpaceAfter=No
+7	我	我	PRON	PRP	Person=1	8	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+8	遐	遐	VERB	VV	_	6	ccomp	_	start_char=9|end_char=10|SpaceAfter=No
+9	𠢕	𠢕	VERB	VV	_	8	xcomp	_	start_char=10|end_char=11|SpaceAfter=No
+10	拖沙	拖沙	NOUN	NN	_	9	obj	_	start_char=11|end_char=13|SpaceAfter=No
+11	。	。	PUNCT	.	_	5	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 141
+# text = 伊予人看破跤手矣，無人會閣再相信伊。
+1	伊予	伊予	PROPN	NNP	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	人	人	PART	SFN	_	7	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	看	看	VERB	VV	_	7	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+4	破跤	破跤	VERB	VV	_	3	xcomp	_	start_char=4|end_char=6|SpaceAfter=No
+5	手矣	手矣	NOUN	NN	_	4	obj	_	start_char=6|end_char=8|SpaceAfter=No
+6	，	，	PUNCT	,	_	3	punct	_	start_char=8|end_char=9|SpaceAfter=No
+7	無	無	VERB	VV	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+8	人	人	NOUN	NN	_	12	nsubj	_	start_char=10|end_char=11|SpaceAfter=No
+9	會	會	AUX	MD	_	12	aux	_	start_char=11|end_char=12|SpaceAfter=No
+10	閣	閣	VERB	VV	_	12	advcl	_	start_char=12|end_char=13|SpaceAfter=No
+11	再	再	ADV	RB	_	12	advmod	_	start_char=13|end_char=14|SpaceAfter=No
+12	相信	相信	VERB	VV	_	7	ccomp	_	start_char=14|end_char=16|SpaceAfter=No
+13	伊	伊	PROPN	NNP	_	12	obj	_	start_char=16|end_char=17|SpaceAfter=No
+14	。	。	PUNCT	.	_	7	punct	_	start_char=17|end_char=18|SpaceAfter=No
+
+# sent_id = 142
+# text = 我上愛聽叔公講古。
+1	我上	我上	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	愛	愛	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	聽	聽	VERB	VV	_	2	mark	_	start_char=3|end_char=4|SpaceAfter=No
+4	叔	叔	PROPN	NNP	_	6	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	公	公	PROPN	NNP	_	4	flat:name	_	start_char=5|end_char=6|SpaceAfter=No
+6	講	講	VERB	VV	_	2	ccomp	_	start_char=6|end_char=7|SpaceAfter=No
+7	古	古	NOUN	NN	_	6	obj	_	start_char=7|end_char=8|SpaceAfter=No
+8	。	。	PUNCT	.	_	2	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 143
+# text = 我有三本古冊予剪蟲咬甲烌烌去。
+1	我	我	PRON	PRP	Person=1	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	有	有	VERB	VV	_	0	root	_	start_char=1|end_char=2|SpaceAfter=No
+3	三	三	NUM	CD	NumType=Card	5	nummod	_	start_char=2|end_char=3|SpaceAfter=No
+4	本	本	NOUN	NNB	_	3	clf	_	start_char=3|end_char=4|SpaceAfter=No
+5	古冊	古冊	NOUN	NN	_	6	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+6	予	予	VERB	VV	_	2	ccomp	_	start_char=6|end_char=7|SpaceAfter=No
+7	剪	剪	VERB	VV	_	6	xcomp	_	start_char=7|end_char=8|SpaceAfter=No
+8	蟲	蟲	NOUN	NN	_	9	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+9	咬甲	咬甲	VERB	VV	_	7	ccomp	_	start_char=9|end_char=11|SpaceAfter=No
+10	烌	烌	SCONJ	DEC	_	9	mark:rel	_	start_char=11|end_char=12|SpaceAfter=No
+11	烌	烌	SCONJ	RB	_	12	mark	_	start_char=12|end_char=13|SpaceAfter=No
+12	去	去	VERB	VV	_	6	xcomp	_	start_char=13|end_char=14|SpaceAfter=No
+13	。	。	PUNCT	.	_	2	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 144
+# text = 阮阿公誠愛抾古早錢，阮厝裡猶揣會著真濟銅仙。
+1	阮阿	阮阿	PROPN	NNP	_	11	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	公誠	公誠	PROPN	NNP	_	1	flat:name	_	start_char=2|end_char=4|SpaceAfter=No
+3	愛	愛	VERB	VV	_	11	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+4	抾	抾	VERB	VV	_	3	xcomp	_	start_char=5|end_char=6|SpaceAfter=No
+5	古	古	PART	PFA	_	6	case	_	start_char=6|end_char=7|SpaceAfter=No
+6	早錢	早錢	NOUN	NN	_	4	obj	_	start_char=7|end_char=9|SpaceAfter=No
+7	，	，	PUNCT	,	_	3	punct	_	start_char=9|end_char=10|SpaceAfter=No
+8	阮厝	阮厝	NOUN	NN	_	11	obl	_	start_char=10|end_char=12|SpaceAfter=No
+9	裡	裡	ADP	IN	_	8	case	_	start_char=12|end_char=13|SpaceAfter=No
+10	猶揣	猶揣	NOUN	NN	_	11	nsubj	_	start_char=13|end_char=15|SpaceAfter=No
+11	會	會	VERB	VV	_	0	root	_	start_char=15|end_char=16|SpaceAfter=No
+12	著	著	AUX	AS	Aspect=Prog	11	aux	_	start_char=16|end_char=17|SpaceAfter=No
+13	真濟	真濟	NOUN	NN	_	14	nmod	_	start_char=17|end_char=19|SpaceAfter=No
+14	銅仙	銅仙	NOUN	NN	_	11	obj	_	start_char=19|end_char=21|SpaceAfter=No
+15	。	。	PUNCT	.	_	11	punct	_	start_char=21|end_char=22|SpaceAfter=No
+
+# sent_id = 145
+# text = 阿伯仔，誠久無看著矣，這馬猶閣老康健呢！
+1	阿伯仔	阿伯仔	PROPN	NNP	_	13	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	，	，	PUNCT	,	_	1	punct	_	start_char=3|end_char=4|SpaceAfter=No
+3	誠久	誠久	NOUN	NN	_	4	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+4	無	無	VERB	VV	_	13	acl	_	start_char=6|end_char=7|SpaceAfter=No
+5	看	看	VERB	VV	_	4	xcomp	_	start_char=7|end_char=8|SpaceAfter=No
+6	著	著	AUX	AS	Aspect=Prog	5	aux	_	start_char=8|end_char=9|SpaceAfter=No
+7	矣	矣	VERB	VV	_	4	xcomp	_	start_char=9|end_char=10|SpaceAfter=No
+8	，	，	PUNCT	,	_	4	punct	_	start_char=10|end_char=11|SpaceAfter=No
+9	這	這	DET	DT	_	10	det	_	start_char=11|end_char=12|SpaceAfter=No
+10	馬	馬	NOUN	NNB	_	11	clf	_	start_char=12|end_char=13|SpaceAfter=No
+11	猶閣	猶閣	NOUN	NN	_	13	nsubj	_	start_char=13|end_char=15|SpaceAfter=No
+12	老	老	PART	PFA	_	13	case	_	start_char=15|end_char=16|SpaceAfter=No
+13	康健	康健	PROPN	NNP	_	0	root	_	start_char=16|end_char=18|SpaceAfter=No
+14	呢	呢	PART	UH	PartType=Int	13	discourse	_	start_char=18|end_char=19|SpaceAfter=No
+15	！	！	PUNCT	.	_	13	punct	_	start_char=19|end_char=20|SpaceAfter=No
+
+# sent_id = 146
+# text = 無閒遮久矣，你著好好仔歇睏。
+1	無閒	無閒	VERB	VV	_	0	root	_	start_char=0|end_char=2|SpaceAfter=No
+2	遮久	遮久	VERB	VV	_	3	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+3	矣	矣	VERB	VV	_	1	xcomp	_	start_char=4|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	9	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	你	你	PRON	PRP	Person=2	9	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	著	著	AUX	AS	Aspect=Prog	9	aux	_	start_char=7|end_char=8|SpaceAfter=No
+7	好	好	ADV	RB	_	9	advmod	_	start_char=8|end_char=9|SpaceAfter=No
+8	好仔歇	好仔歇	NOUN	NN	_	9	compound	_	start_char=9|end_char=12|SpaceAfter=No
+9	睏	睏	PART	SFN	_	1	parataxis	_	start_char=12|end_char=13|SpaceAfter=No
+10	。	。	PUNCT	.	_	1	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 147
+# text = 我已經坐三點鐘久的車矣。
+1	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	已經	已經	ADV	RB	_	3	advmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	坐三	坐三	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	點	點	PART	PFA	_	5	case	_	start_char=5|end_char=6|SpaceAfter=No
+5	鐘久	鐘久	PROPN	NNP	_	7	nmod	_	start_char=6|end_char=8|SpaceAfter=No
+6	的	的	PART	DEC	Case=Gen	5	case	_	start_char=8|end_char=9|SpaceAfter=No
+7	車矣	車矣	NOUN	NN	_	3	obj	_	start_char=9|end_char=11|SpaceAfter=No
+8	。	。	PUNCT	.	_	3	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 148
+# text = 我佮伊已經真久無來去矣，毋知影伊的情形。
+1	我	我	PRON	PRP	Person=1	8	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	佮伊	佮伊	PROPN	NNP	_	1	flat:name	_	start_char=1|end_char=3|SpaceAfter=No
+3	已經	已經	ADV	RB	_	5	advmod	_	start_char=3|end_char=5|SpaceAfter=No
+4	真久	真久	ADV	RB	_	5	advmod	_	start_char=5|end_char=7|SpaceAfter=No
+5	無來	無來	VERB	VV	_	8	advcl	_	start_char=7|end_char=9|SpaceAfter=No
+6	去矣	去矣	VERB	VV	_	5	xcomp	_	start_char=9|end_char=11|SpaceAfter=No
+7	，	，	PUNCT	,	_	5	punct	_	start_char=11|end_char=12|SpaceAfter=No
+8	毋知	毋知	VERB	VV	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+9	影伊	影伊	PROPN	NNP	_	11	nmod	_	start_char=14|end_char=16|SpaceAfter=No
+10	的	的	PART	DEC	Case=Gen	9	case	_	start_char=16|end_char=17|SpaceAfter=No
+11	情形	情形	NOUN	NN	_	8	obj	_	start_char=17|end_char=19|SpaceAfter=No
+12	。	。	PUNCT	.	_	8	punct	_	start_char=19|end_char=20|SpaceAfter=No
+
+# sent_id = 149
+# text = 伊的生活傷過頭奢華。
+1	伊	伊	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=1|SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	生活	生活	NOUN	NN	_	4	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+4	傷	傷	VERB	VV	_	0	root	_	start_char=4|end_char=5|SpaceAfter=No
+5	過頭	過頭	VERB	VV	_	4	mark	_	start_char=5|end_char=7|SpaceAfter=No
+6	奢華	奢華	ADJ	JJ	_	4	xcomp	_	start_char=7|end_char=9|SpaceAfter=No
+7	。	。	PUNCT	.	_	4	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 150
+# text = 你按呢敢袂傷過頭迷信？
+1	你	你	PRON	PRP	Person=2	7	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	按	按	ADP	IN	_	4	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	呢敢	呢敢	NOUN	NN	_	4	compound	_	start_char=2|end_char=4|SpaceAfter=No
+4	袂	袂	PART	SFN	_	5	obl	_	start_char=4|end_char=5|SpaceAfter=No
+5	傷	傷	VERB	VV	_	7	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+6	過頭	過頭	VERB	VV	_	5	mark	_	start_char=6|end_char=8|SpaceAfter=No
+7	迷信	迷信	VERB	VV	_	0	root	_	start_char=8|end_char=10|SpaceAfter=No
+8	？	？	PUNCT	.	_	7	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 151
+# text = 你講了傷過頭矣，伊無影遮爾歹。
+1	你	你	PRON	PRP	Person=2	9	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	講	講	VERB	VV	_	9	advcl	_	start_char=1|end_char=2|SpaceAfter=No
+3	了	了	AUX	AS	Aspect=Perf	2	aux	_	start_char=2|end_char=3|SpaceAfter=No
+4	傷	傷	NOUN	NN	_	6	nsubj	_	start_char=3|end_char=4|SpaceAfter=No
+5	過頭	過頭	VERB	VV	_	6	advcl	_	start_char=4|end_char=6|SpaceAfter=No
+6	矣	矣	VERB	VV	_	2	ccomp	_	start_char=6|end_char=7|SpaceAfter=No
+7	，	，	PUNCT	,	_	2	punct	_	start_char=7|end_char=8|SpaceAfter=No
+8	伊無影遮爾	伊無影遮爾	VERB	VV	_	9	advcl	_	start_char=8|end_char=13|SpaceAfter=No
+9	歹	歹	VERB	VV	_	0	root	_	start_char=13|end_char=14|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 152
+# text = 聽著車禍的消息，伊規个人攏愣去。
+1	聽	聽	VERB	VV	_	9	advcl	_	start_char=0|end_char=1|SpaceAfter=No
+2	著	著	AUX	AS	Aspect=Prog	1	aux	_	start_char=1|end_char=2|SpaceAfter=No
+3	車禍	車禍	NOUN	NN	_	5	nmod	_	start_char=2|end_char=4|SpaceAfter=No
+4	的	的	PART	DEC	Case=Gen	3	case	_	start_char=4|end_char=5|SpaceAfter=No
+5	消息	消息	NOUN	NN	_	1	obj	_	start_char=5|end_char=7|SpaceAfter=No
+6	，	，	PUNCT	,	_	1	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	伊規个	伊規个	PROPN	NNP	_	8	compound	_	start_char=8|end_char=11|SpaceAfter=No
+8	人	人	PART	SFN	_	9	nsubj	_	start_char=11|end_char=12|SpaceAfter=No
+9	攏	攏	VERB	VV	_	0	root	_	start_char=12|end_char=13|SpaceAfter=No
+10	愣	愣	VERB	VV	_	9	mark	_	start_char=13|end_char=14|SpaceAfter=No
+11	去	去	VERB	VV	_	9	xcomp	_	start_char=14|end_char=15|SpaceAfter=No
+12	。	。	PUNCT	.	_	9	punct	_	start_char=15|end_char=16|SpaceAfter=No
+
+# sent_id = 153
+# text = 伊氣甲規个面膨起來。
+1	伊氣	伊氣	PROPN	NNP	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	甲	甲	PART	SFN	_	3	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	規个	規个	NOUN	NN	_	4	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+4	面膨	面膨	VERB	VV	_	0	root	_	start_char=5|end_char=7|SpaceAfter=No
+5	起來	起來	VERB	VV	_	4	mark	_	start_char=7|end_char=9|SpaceAfter=No
+6	。	。	PUNCT	.	_	4	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 154
+# text = 新正年頭，規个社會充滿快樂的氣氛。
+1	新	新	PART	PFA	_	3	case	_	start_char=0|end_char=1|SpaceAfter=No
+2	正	正	PART	PFA	_	3	case	_	start_char=1|end_char=2|SpaceAfter=No
+3	年	年	NOUN	NN	_	6	nmod:tmod	_	start_char=2|end_char=3|SpaceAfter=No
+4	頭	頭	ADP	IN	_	3	case	_	start_char=3|end_char=4|SpaceAfter=No
+5	，	，	PUNCT	,	_	3	punct	_	start_char=4|end_char=5|SpaceAfter=No
+6	規个	規个	VERB	VV	_	0	root	_	start_char=5|end_char=7|SpaceAfter=No
+7	社會	社會	NOUN	NN	_	8	nsubj	_	start_char=7|end_char=9|SpaceAfter=No
+8	充滿	充滿	VERB	VV	_	11	acl:relcl	_	start_char=9|end_char=11|SpaceAfter=No
+9	快樂	快樂	NOUN	NN	_	8	obj	_	start_char=11|end_char=13|SpaceAfter=No
+10	的	的	SCONJ	DEC	_	8	mark:rel	_	start_char=13|end_char=14|SpaceAfter=No
+11	氣氛	氣氛	NOUN	NN	_	6	obj	_	start_char=14|end_char=16|SpaceAfter=No
+12	。	。	PUNCT	.	_	6	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 155
+# text = 風颱天的菜價有影貴甲驚死人！
+1	風颱天	風颱天	PROPN	NNP	_	4	nmod	_	start_char=0|end_char=3|SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	start_char=3|end_char=4|SpaceAfter=No
+3	菜	菜	NOUN	NN	_	4	compound	_	start_char=4|end_char=5|SpaceAfter=No
+4	價	價	PART	SFN	_	5	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+5	有	有	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+6	影貴甲	影貴甲	PROPN	NNP	_	7	compound	_	start_char=7|end_char=10|SpaceAfter=No
+7	驚	驚	PART	SFN	_	8	nmod	_	start_char=10|end_char=11|SpaceAfter=No
+8	死人	死人	NOUN	NN	_	5	obj	_	start_char=11|end_char=13|SpaceAfter=No
+9	！	！	PUNCT	.	_	5	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 156
+# text = 看著貴重的物件伊就煞心。
+1	看著	看著	VERB	VV	_	7	advcl	_	start_char=0|end_char=2|SpaceAfter=No
+2	貴重	貴重	ADJ	JJ	_	4	amod	_	start_char=2|end_char=4|SpaceAfter=No
+3	的	的	SCONJ	DEC	_	2	mark:rel	_	start_char=4|end_char=5|SpaceAfter=No
+4	物件	物件	NOUN	NN	_	7	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+5	伊	伊	PROPN	NNP	_	4	appos	_	start_char=7|end_char=8|SpaceAfter=No
+6	就	就	SCONJ	RB	_	7	mark	_	start_char=8|end_char=9|SpaceAfter=No
+7	煞心	煞心	VERB	VV	_	0	root	_	start_char=9|end_char=11|SpaceAfter=No
+8	。	。	PUNCT	.	_	7	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 157
+# text = 物件若好，較貴一點仔無要緊。
+1	物件	物件	NOUN	NN	_	8	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	若	若	ADP	IN	_	3	case	_	start_char=2|end_char=3|SpaceAfter=No
+3	好	好	ADJ	JJ	_	8	xcomp	_	start_char=3|end_char=4|SpaceAfter=No
+4	，	，	PUNCT	,	_	3	punct	_	start_char=4|end_char=5|SpaceAfter=No
+5	較貴	較貴	ADJ	JJ	_	7	amod	_	start_char=5|end_char=7|SpaceAfter=No
+6	一	一	NUM	CD	NumType=Card	7	nummod	_	start_char=7|end_char=8|SpaceAfter=No
+7	點	點	NOUN	NN	_	8	nsubj	_	start_char=8|end_char=9|SpaceAfter=No
+8	仔無	仔無	VERB	VV	_	0	root	_	start_char=9|end_char=11|SpaceAfter=No
+9	要緊	要緊	ADJ	JJ	_	8	xcomp	_	start_char=11|end_char=13|SpaceAfter=No
+10	。	。	PUNCT	.	_	8	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 158
+# text = 請問咱貴姓？
+1	請問	請問	VERB	VV	_	0	root	_	start_char=0|end_char=2|SpaceAfter=No
+2	咱	咱	PRON	WP	_	3	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	貴姓	貴姓	NOUN	NN	_	1	obj	_	start_char=3|end_char=5|SpaceAfter=No
+4	？	？	PUNCT	.	_	1	punct	_	start_char=5|end_char=6|SpaceAfter=No
+
+# sent_id = 159
+# text = 豬跤𤉙爛爛，真好食。
+1	豬跤𤉙爛爛	豬跤𤉙爛爛	VERB	VV	_	0	root	_	start_char=0|end_char=5|SpaceAfter=No
+2	，	，	PUNCT	,	_	4	punct	_	start_char=5|end_char=6|SpaceAfter=No
+3	真好	真好	ADJ	JJ	_	4	compound	_	start_char=6|end_char=8|SpaceAfter=No
+4	食	食	PART	SFN	_	1	parataxis	_	start_char=8|end_char=9|SpaceAfter=No
+5	。	。	PUNCT	.	_	1	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 160
+# text = 我共你偷講，你毋通共別人講。
+1	我	我	PRON	PRP	Person=1	5	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	共	共	ADV	RB	_	5	advmod	_	start_char=1|end_char=2|SpaceAfter=No
+3	你	你	PRON	PRP	Person=2	5	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+4	偷	偷	VERB	VV	_	5	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+5	講	講	VERB	VV	_	0	root	_	start_char=4|end_char=5|SpaceAfter=No
+6	，	，	PUNCT	,	_	11	punct	_	start_char=5|end_char=6|SpaceAfter=No
+7	你	你	PRON	PRP	Person=2	11	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+8	毋	毋	AUX	MD	_	11	aux	_	start_char=7|end_char=8|SpaceAfter=No
+9	通共	通共	VERB	VV	_	11	advcl	_	start_char=8|end_char=10|SpaceAfter=No
+10	別人	別人	NOUN	NN	_	9	obj	_	start_char=10|end_char=12|SpaceAfter=No
+11	講	講	VERB	VV	_	5	parataxis	_	start_char=12|end_char=13|SpaceAfter=No
+12	。	。	PUNCT	.	_	5	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 161
+# text = 我實在無法度分身來處理別人的代誌。
+1	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	實在	實在	ADV	RB	_	3	advmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	無法	無法	VERB	VV	_	0	root	_	start_char=3|end_char=5|SpaceAfter=No
+4	度	度	VERB	VV	_	3	xcomp	_	start_char=5|end_char=6|SpaceAfter=No
+5	分	分	VERB	VV	_	4	xcomp	_	start_char=6|end_char=7|SpaceAfter=No
+6	身來	身來	VERB	VV	_	5	mark	_	start_char=7|end_char=9|SpaceAfter=No
+7	處理	處理	VERB	VV	_	5	xcomp	_	start_char=9|end_char=11|SpaceAfter=No
+8	別人	別人	NOUN	NN	_	7	obj	_	start_char=11|end_char=13|SpaceAfter=No
+9	的	的	SCONJ	DEC	_	5	mark:rel	_	start_char=13|end_char=14|SpaceAfter=No
+10	代誌	代誌	NOUN	NN	_	4	obj	_	start_char=14|end_char=16|SpaceAfter=No
+11	。	。	PUNCT	.	_	3	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 162
+# text = 我真討厭別人干涉我的代誌。
+1	我	我	PRON	PRP	Person=1	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	真討	真討	ADV	RB	_	3	advmod	_	start_char=1|end_char=3|SpaceAfter=No
+3	厭	厭	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+4	別	別	PART	PFA	_	5	case	_	start_char=4|end_char=5|SpaceAfter=No
+5	人	人	NOUN	NN	_	6	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+6	干涉	干涉	VERB	VV	_	3	ccomp	_	start_char=6|end_char=8|SpaceAfter=No
+7	我	我	PRON	PRP	Person=1	9	det	_	start_char=8|end_char=9|SpaceAfter=No
+8	的	的	PART	DEC	Case=Gen	7	case	_	start_char=9|end_char=10|SpaceAfter=No
+9	代誌	代誌	NOUN	NN	_	6	obj	_	start_char=10|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	3	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 163
+# text = 伊去予別人的跤拐一下跋倒。
+1	伊去	伊去	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	予	予	VERB	VV	Voice=Cau	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	別人	別人	NOUN	NN	_	6	nmod	_	start_char=3|end_char=5|SpaceAfter=No
+4	的	的	PART	DEC	Case=Gen	3	case	_	start_char=5|end_char=6|SpaceAfter=No
+5	跤	跤	NOUN	NN	_	6	compound	_	start_char=6|end_char=7|SpaceAfter=No
+6	拐	拐	PART	SFN	_	2	obj	_	start_char=7|end_char=8|SpaceAfter=No
+7	一	一	NUM	CD	NumType=Card	9	obl	_	start_char=8|end_char=9|SpaceAfter=No
+8	下	下	ADP	IN	_	7	case	_	start_char=9|end_char=10|SpaceAfter=No
+9	跋倒	跋倒	VERB	VV	_	2	ccomp	_	start_char=10|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	2	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 164
+# text = 家己縛粽較厚工。
+1	家己	家己	NOUN	NN	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	縛粽	縛粽	VERB	VV	_	0	root	_	start_char=2|end_char=4|SpaceAfter=No
+3	較厚	較厚	ADJ	JJ	_	4	compound	_	start_char=4|end_char=6|SpaceAfter=No
+4	工	工	PART	SFN	_	2	obj	_	start_char=6|end_char=7|SpaceAfter=No
+5	。	。	PUNCT	.	_	2	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 165
+# text = 阿珠人真抾拾，袂烏白開錢。
+1	阿珠	阿珠	PROPN	NNP	_	3	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	人真	人真	ADV	RB	_	3	advmod	_	start_char=2|end_char=4|SpaceAfter=No
+3	抾拾	抾拾	VERB	VV	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+4	，	，	PUNCT	,	_	7	punct	_	start_char=6|end_char=7|SpaceAfter=No
+5	袂	袂	PROPN	NNP	_	7	nsubj	_	start_char=7|end_char=8|SpaceAfter=No
+6	烏白	烏白	PROPN	NNP	_	5	flat:name	_	start_char=8|end_char=10|SpaceAfter=No
+7	開錢	開錢	VERB	VV	_	3	parataxis	_	start_char=10|end_char=12|SpaceAfter=No
+8	。	。	PUNCT	.	_	3	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 166
+# text = 我這馬歲頭都食甲七、八十矣，鬢跤的毛繐攏齊白矣。
+1	我	我	PRON	PRP	Person=1	7	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	這	這	DET	DT	_	4	det	_	start_char=1|end_char=2|SpaceAfter=No
+3	馬	馬	NUM	CD	NumType=Card	4	nummod	_	start_char=2|end_char=3|SpaceAfter=No
+4	歲	歲	NOUN	NNB	_	7	nmod:tmod	_	start_char=3|end_char=4|SpaceAfter=No
+5	頭	頭	ADP	IN	_	4	case	_	start_char=4|end_char=5|SpaceAfter=No
+6	都	都	SCONJ	RB	_	7	mark	_	start_char=5|end_char=6|SpaceAfter=No
+7	食甲	食甲	VERB	VV	_	0	root	_	start_char=6|end_char=8|SpaceAfter=No
+8	七	七	NUM	CD	NumType=Card	12	nummod	_	start_char=8|end_char=9|SpaceAfter=No
+9	、	、	PUNCT	EC	_	10	punct	_	start_char=9|end_char=10|SpaceAfter=No
+10	八	八	NUM	CD	NumType=Card	8	conj	_	start_char=10|end_char=11|SpaceAfter=No
+11	十	十	NUM	CD	NumType=Card	12	nummod	_	start_char=11|end_char=12|SpaceAfter=No
+12	矣	矣	NOUN	NN	_	7	obj	_	start_char=12|end_char=13|SpaceAfter=No
+13	，	，	PUNCT	,	_	18	punct	_	start_char=13|end_char=14|SpaceAfter=No
+14	鬢跤	鬢跤	NOUN	NN	_	16	acl:relcl	_	start_char=14|end_char=16|SpaceAfter=No
+15	的	的	SCONJ	DEC	_	14	mark:rel	_	start_char=16|end_char=17|SpaceAfter=No
+16	毛	毛	PROPN	NNP	_	18	nsubj	_	start_char=17|end_char=18|SpaceAfter=No
+17	繐	繐	PROPN	NNP	_	16	flat:name	_	start_char=18|end_char=19|SpaceAfter=No
+18	攏	攏	VERB	VV	_	7	parataxis	_	start_char=19|end_char=20|SpaceAfter=No
+19	齊白	齊白	VERB	VV	_	20	advcl	_	start_char=20|end_char=22|SpaceAfter=No
+20	矣	矣	VERB	VV	_	18	xcomp	_	start_char=22|end_char=23|SpaceAfter=No
+21	。	。	PUNCT	.	_	7	punct	_	start_char=23|end_char=24|SpaceAfter=No
+
+# sent_id = 167
+# text = 空喙哺舌無路用，白紙烏字才有憑準。
+1	空喙	空喙	NOUN	NN	_	2	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	哺舌	哺舌	NOUN	NN	_	3	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+3	無路	無路	VERB	VV	_	9	advcl	_	start_char=4|end_char=6|SpaceAfter=No
+4	用	用	VERB	VV	_	3	xcomp	_	start_char=6|end_char=7|SpaceAfter=No
+5	，	，	PUNCT	,	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+6	白紙	白紙	NOUN	NN	_	7	nmod	_	start_char=8|end_char=10|SpaceAfter=No
+7	烏字	烏字	NOUN	NN	_	9	nsubj	_	start_char=10|end_char=12|SpaceAfter=No
+8	才	才	SCONJ	RB	_	9	mark	_	start_char=12|end_char=13|SpaceAfter=No
+9	有	有	VERB	VV	_	0	root	_	start_char=13|end_char=14|SpaceAfter=No
+10	憑準	憑準	NOUN	NN	_	9	obj	_	start_char=14|end_char=16|SpaceAfter=No
+11	。	。	PUNCT	.	_	9	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 168
+# text = 白菜滷是阮大家的手路菜，阮兜逐家攏真愛食。
+1	白菜	白菜	NOUN	NN	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	滷	滷	PART	SFN	_	9	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	是	是	AUX	VC	_	9	cop	_	start_char=3|end_char=4|SpaceAfter=No
+4	阮	阮	PROPN	NNP	_	9	nmod	_	start_char=4|end_char=5|SpaceAfter=No
+5	大家	大家	PRON	PRD	_	4	appos	_	start_char=5|end_char=7|SpaceAfter=No
+6	的	的	PART	DEC	Case=Gen	4	case	_	start_char=7|end_char=8|SpaceAfter=No
+7	手	手	NOUN	NN	_	9	nmod	_	start_char=8|end_char=9|SpaceAfter=No
+8	路	路	NOUN	NN	_	9	nmod	_	start_char=9|end_char=10|SpaceAfter=No
+9	菜	菜	NOUN	NN	_	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+10	，	，	PUNCT	,	_	14	punct	_	start_char=11|end_char=12|SpaceAfter=No
+11	阮	阮	PROPN	NNP	_	14	nsubj	_	start_char=12|end_char=13|SpaceAfter=No
+12	兜	兜	PROPN	NNP	_	11	flat:name	_	start_char=13|end_char=14|SpaceAfter=No
+13	逐家	逐家	ADV	RB	_	14	advmod	_	start_char=14|end_char=16|SpaceAfter=No
+14	攏	攏	VERB	VV	_	9	parataxis	_	start_char=16|end_char=17|SpaceAfter=No
+15	真	真	ADV	RB	_	16	advmod	_	start_char=17|end_char=18|SpaceAfter=No
+16	愛	愛	VERB	VV	_	14	xcomp	_	start_char=18|end_char=19|SpaceAfter=No
+17	食	食	NOUN	NN	_	16	obj	_	start_char=19|end_char=20|SpaceAfter=No
+18	。	。	PUNCT	.	_	9	punct	_	start_char=20|end_char=21|SpaceAfter=No
+
+# sent_id = 169
+# text = 這个囡仔真喙白，逐項都毋食。
+1	這	這	DET	DT	_	2	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	个	个	NOUN	NNB	_	3	obl	_	start_char=1|end_char=2|SpaceAfter=No
+3	囡仔	囡仔	VERB	VV	_	10	advcl	_	start_char=2|end_char=4|SpaceAfter=No
+4	真喙	真喙	NOUN	NN	_	3	obj	_	start_char=4|end_char=6|SpaceAfter=No
+5	白	白	NOUN	NN	_	3	obj	_	start_char=6|end_char=7|SpaceAfter=No
+6	，	，	PUNCT	,	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	逐項	逐項	NOUN	NN	_	10	nsubj	_	start_char=8|end_char=10|SpaceAfter=No
+8	都	都	SCONJ	RB	_	10	mark	_	start_char=10|end_char=11|SpaceAfter=No
+9	毋	毋	AUX	MD	_	10	aux	_	start_char=11|end_char=12|SpaceAfter=No
+10	食	食	VERB	VV	_	0	root	_	start_char=12|end_char=13|SpaceAfter=No
+11	。	。	PUNCT	.	_	10	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 170
+# text = 原來這塊柴是冇心的，莫怪提著遮爾仔輕。
+1	原來	原來	ADV	RB	_	5	advmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	這	這	DET	DT	_	3	det	_	start_char=2|end_char=3|SpaceAfter=No
+3	塊	塊	NOUN	NNB	_	4	clf	_	start_char=3|end_char=4|SpaceAfter=No
+4	柴	柴	NOUN	NN	_	5	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+5	是	是	VERB	VC	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	冇心	冇心	PROPN	NNP	_	5	xcomp	_	start_char=6|end_char=8|SpaceAfter=No
+7	的	的	PART	UH	_	5	discourse	_	start_char=8|end_char=9|SpaceAfter=No
+8	，	，	PUNCT	,	_	10	punct	_	start_char=9|end_char=10|SpaceAfter=No
+9	莫怪提著遮爾	莫怪提著遮爾	PROPN	NNP	_	10	nsubj	_	start_char=10|end_char=16|SpaceAfter=No
+10	仔輕	仔輕	VERB	VV	_	5	parataxis	_	start_char=16|end_char=18|SpaceAfter=No
+11	。	。	PUNCT	.	_	5	punct	_	start_char=18|end_char=19|SpaceAfter=No
+
+# sent_id = 171
+# text = 伊用錢真冇手。
+1	伊用	伊用	PROPN	NNP	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	錢	錢	PART	SFN	_	4	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+3	真冇	真冇	ADJ	JJ	_	4	compound	_	start_char=3|end_char=5|SpaceAfter=No
+4	手	手	PART	SFN	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+5	。	。	PUNCT	.	_	4	punct	_	start_char=6|end_char=7|SpaceAfter=No
+
+# sent_id = 172
+# text = 囡仔離跤手以後你就輕鬆矣。
+1	囡仔	囡仔	PROPN	NNP	_	9	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	離	離	ADP	IN	_	4	case	_	start_char=2|end_char=3|SpaceAfter=No
+3	跤	跤	NOUN	NN	_	4	compound	_	start_char=3|end_char=4|SpaceAfter=No
+4	手	手	PART	SFN	_	9	obl	_	start_char=4|end_char=5|SpaceAfter=No
+5	以後	以後	ADP	IN	_	4	case	_	start_char=5|end_char=7|SpaceAfter=No
+6	你	你	PRON	PRP	Person=2	9	nsubj	_	start_char=7|end_char=8|SpaceAfter=No
+7	就	就	SCONJ	RB	_	9	mark	_	start_char=8|end_char=9|SpaceAfter=No
+8	輕鬆	輕鬆	ADV	RB	_	9	advmod	_	start_char=9|end_char=11|SpaceAfter=No
+9	矣	矣	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 173
+# text = 伊彼支喙佮機關銃仝款，講袂煞。
+1	伊彼支喙佮	伊彼支喙佮	NOUN	NN	_	5	nmod	_	start_char=0|end_char=5|SpaceAfter=No
+2	機關	機關	NOUN	NN	_	3	compound	_	start_char=5|end_char=7|SpaceAfter=No
+3	銃	銃	PART	SFN	_	5	nmod	_	start_char=7|end_char=8|SpaceAfter=No
+4	仝	仝	NUM	CD	NumType=Card	5	compound	_	start_char=8|end_char=9|SpaceAfter=No
+5	款	款	PART	SFN	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+6	，	，	PUNCT	,	_	8	punct	_	start_char=10|end_char=11|SpaceAfter=No
+7	講袂	講袂	VERB	VV	_	8	compound	_	start_char=11|end_char=13|SpaceAfter=No
+8	煞	煞	PART	SFN	_	5	conj	_	start_char=13|end_char=14|SpaceAfter=No
+9	。	。	PUNCT	.	_	5	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 174
+# text = 𪜶兩个好甲親像兄弟仔仝款。
+1	𪜶	𪜶	DET	DT	_	3	det	_	start_char=0|end_char=1|SpaceAfter=No
+2	兩	兩	NUM	CD	NumType=Card	3	nummod	_	start_char=1|end_char=2|SpaceAfter=No
+3	个	个	NOUN	NNB	_	4	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+4	好甲	好甲	NOUN	NN	_	5	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+5	親	親	VERB	VV	_	0	root	_	start_char=5|end_char=6|SpaceAfter=No
+6	像	像	VERB	VV	_	5	xcomp	_	start_char=6|end_char=7|SpaceAfter=No
+7	兄弟	兄弟	NOUN	NN	_	10	nmod	_	start_char=7|end_char=9|SpaceAfter=No
+8	仔	仔	PART	PFA	_	9	case	_	start_char=9|end_char=10|SpaceAfter=No
+9	仝	仝	NOUN	NN	_	10	compound	_	start_char=10|end_char=11|SpaceAfter=No
+10	款	款	PART	SFN	_	6	obj	_	start_char=11|end_char=12|SpaceAfter=No
+11	。	。	PUNCT	.	_	5	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 175
+# text = 我共你當做是上好的朋友。
+1	我	我	PRON	PRP	Person=1	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	共	共	ADV	RB	_	4	advmod	_	start_char=1|end_char=2|SpaceAfter=No
+3	你	你	PRON	PRP	Person=2	4	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+4	當	當	ADV	RB	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+5	做	做	VERB	VV	_	4	xcomp	_	start_char=4|end_char=5|SpaceAfter=No
+6	是	是	AUX	VC	_	9	cop	_	start_char=5|end_char=6|SpaceAfter=No
+7	上好	上好	ADJ	JJ	_	9	amod	_	start_char=6|end_char=8|SpaceAfter=No
+8	的	的	SCONJ	DEC	_	7	mark:rel	_	start_char=8|end_char=9|SpaceAfter=No
+9	朋友	朋友	NOUN	NN	_	5	xcomp	_	start_char=9|end_char=11|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 176
+# text = 我警告你，這馬上好莫惹我！
+1	我	我	PRON	PRP	Person=1	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	警告	警告	VERB	VV	_	0	root	_	start_char=1|end_char=3|SpaceAfter=No
+3	你	你	PRON	PRP	Person=2	2	obj	_	start_char=3|end_char=4|SpaceAfter=No
+4	，	，	PUNCT	,	_	8	punct	_	start_char=4|end_char=5|SpaceAfter=No
+5	這	這	PRON	PRD	_	8	nsubj	_	start_char=5|end_char=6|SpaceAfter=No
+6	馬上	馬上	ADV	RB	_	8	advmod	_	start_char=6|end_char=8|SpaceAfter=No
+7	好	好	ADV	RB	_	8	advmod	_	start_char=8|end_char=9|SpaceAfter=No
+8	莫惹	莫惹	VERB	VV	_	2	parataxis	_	start_char=9|end_char=11|SpaceAfter=No
+9	我	我	PRON	PRP	Person=1	8	obj	_	start_char=11|end_char=12|SpaceAfter=No
+10	！	！	PUNCT	.	_	2	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 177
+# text = 彼種暗毿所在你上好莫去。
+1	彼種	彼種	DET	DT	_	2	det	_	start_char=0|end_char=2|SpaceAfter=No
+2	暗毿	暗毿	NOUN	NN	_	4	nsubj	_	start_char=2|end_char=4|SpaceAfter=No
+3	所	所	SCONJ	RB	_	4	mark	_	start_char=4|end_char=5|SpaceAfter=No
+4	在	在	VERB	VV	_	8	advcl	_	start_char=5|end_char=6|SpaceAfter=No
+5	你	你	PRON	PRP	Person=2	8	obl	_	start_char=6|end_char=7|SpaceAfter=No
+6	上	上	ADP	IN	_	5	case	_	start_char=7|end_char=8|SpaceAfter=No
+7	好	好	ADV	RB	_	8	advmod	_	start_char=8|end_char=9|SpaceAfter=No
+8	莫	莫	VERB	VV	_	0	root	_	start_char=9|end_char=10|SpaceAfter=No
+9	去	去	VERB	VV	_	8	mark	_	start_char=10|end_char=11|SpaceAfter=No
+10	。	。	PUNCT	.	_	8	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 178
+# text = 今仔日的代誌上好莫拖到明仔日。
+1	今仔	今仔	PROPN	NNP	_	4	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	日	日	PROPN	NNP	_	1	flat:name	_	start_char=2|end_char=3|SpaceAfter=No
+3	的	的	PART	DEC	Case=Gen	1	case	_	start_char=3|end_char=4|SpaceAfter=No
+4	代誌	代誌	NOUN	NN	_	8	obl	_	start_char=4|end_char=6|SpaceAfter=No
+5	上	上	ADP	IN	_	4	case	_	start_char=6|end_char=7|SpaceAfter=No
+6	好	好	ADV	RB	_	8	advmod	_	start_char=7|end_char=8|SpaceAfter=No
+7	莫拖	莫拖	PROPN	NNP	_	8	nsubj	_	start_char=8|end_char=10|SpaceAfter=No
+8	到	到	VERB	VV	_	0	root	_	start_char=10|end_char=11|SpaceAfter=No
+9	明仔	明仔	PROPN	NNP	_	10	compound	_	start_char=11|end_char=13|SpaceAfter=No
+10	日	日	PART	SFN	_	8	obj	_	start_char=13|end_char=14|SpaceAfter=No
+11	。	。	PUNCT	.	_	8	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 179
+# text = 三角窗的厝來做店面上好。
+1	三	三	NUM	CD	NumType=Card	2	nummod	_	start_char=0|end_char=1|SpaceAfter=No
+2	角	角	NOUN	NN	_	3	compound	_	start_char=1|end_char=2|SpaceAfter=No
+3	窗	窗	PART	SFN	_	5	nmod	_	start_char=2|end_char=3|SpaceAfter=No
+4	的	的	PART	DEC	Case=Gen	3	case	_	start_char=3|end_char=4|SpaceAfter=No
+5	厝來	厝來	NOUN	NN	_	6	nsubj	_	start_char=4|end_char=6|SpaceAfter=No
+6	做	做	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+7	店面	店面	NOUN	NN	_	8	nsubj	_	start_char=7|end_char=9|SpaceAfter=No
+8	上好	上好	VERB	VV	_	6	ccomp	_	start_char=9|end_char=11|SpaceAfter=No
+9	。	。	PUNCT	.	_	6	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 180
+# text = 聽伊講話的腔口，就知影伊是在地人。
+1	聽	聽	VERB	VV	_	5	acl:relcl	_	start_char=0|end_char=1|SpaceAfter=No
+2	伊	伊	PROPN	NNP	_	3	nsubj	_	start_char=1|end_char=2|SpaceAfter=No
+3	講話	講話	VERB	VV	_	5	acl:relcl	_	start_char=2|end_char=4|SpaceAfter=No
+4	的	的	SCONJ	DEC	_	3	mark:rel	_	start_char=4|end_char=5|SpaceAfter=No
+5	腔口	腔口	NOUN	NN	_	8	nsubj	_	start_char=5|end_char=7|SpaceAfter=No
+6	，	，	PUNCT	,	_	5	punct	_	start_char=7|end_char=8|SpaceAfter=No
+7	就	就	SCONJ	RB	_	8	mark	_	start_char=8|end_char=9|SpaceAfter=No
+8	知影	知影	VERB	VV	_	0	root	_	start_char=9|end_char=11|SpaceAfter=No
+9	伊	伊	PROPN	NNP	_	10	nsubj	_	start_char=11|end_char=12|SpaceAfter=No
+10	是	是	VERB	VC	_	8	ccomp	_	start_char=12|end_char=13|SpaceAfter=No
+11	在	在	VERB	VV	_	10	xcomp	_	start_char=13|end_char=14|SpaceAfter=No
+12	地人	地人	NOUN	NN	_	11	obj	_	start_char=14|end_char=16|SpaceAfter=No
+13	。	。	PUNCT	.	_	8	punct	_	start_char=16|end_char=17|SpaceAfter=No
+
+# sent_id = 181
+# text = 阮兩个差不多平懸。
+1	阮	阮	PROPN	NNP	_	4	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	兩	兩	NUM	CD	NumType=Card	3	nummod	_	start_char=1|end_char=2|SpaceAfter=No
+3	个	个	NOUN	NNB	_	4	obl	_	start_char=2|end_char=3|SpaceAfter=No
+4	差	差	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+5	不多	不多	ADJ	JJ	_	6	amod	_	start_char=4|end_char=6|SpaceAfter=No
+6	平懸	平懸	NOUN	NN	_	4	obj	_	start_char=6|end_char=8|SpaceAfter=No
+7	。	。	PUNCT	.	_	4	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 182
+# text = 伊咧講啥物，我差不多攏聽無。
+1	伊咧	伊咧	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	講啥	講啥	VERB	VV	_	3	compound	_	start_char=2|end_char=4|SpaceAfter=No
+3	物	物	PART	SFN	_	6	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	3	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	我	我	PRON	PRP	Person=1	6	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	差	差	VERB	VV	_	0	root	_	start_char=7|end_char=8|SpaceAfter=No
+7	不多	不多	ADJ	JJ	_	9	advmod	_	start_char=8|end_char=10|SpaceAfter=No
+8	攏	攏	SCONJ	DEV	_	7	mark:adv	_	start_char=10|end_char=11|SpaceAfter=No
+9	聽無	聽無	VERB	VV	_	6	xcomp	_	start_char=11|end_char=13|SpaceAfter=No
+10	。	。	PUNCT	.	_	6	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+# sent_id = 183
+# text = 你去共茶盤洗予清氣。
+1	你	你	PRON	PRP	Person=2	5	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	去	去	VERB	VV	_	5	advcl	_	start_char=1|end_char=2|SpaceAfter=No
+3	共	共	PROPN	NNP	_	4	compound	_	start_char=2|end_char=3|SpaceAfter=No
+4	茶	茶	PART	SFN	_	2	obj	_	start_char=3|end_char=4|SpaceAfter=No
+5	盤洗	盤洗	VERB	VV	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+6	予	予	VERB	VV	_	5	xcomp	_	start_char=6|end_char=7|SpaceAfter=No
+7	清氣	清氣	VERB	VV	_	6	xcomp	_	start_char=7|end_char=9|SpaceAfter=No
+8	。	。	PUNCT	.	_	5	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 184
+# text = 伊衫仔褲穿甲清氣閣伶俐。
+1	伊衫仔	伊衫仔	PROPN	NNP	_	2	compound	_	start_char=0|end_char=3|SpaceAfter=No
+2	褲	褲	PART	SFN	_	5	nmod	_	start_char=3|end_char=4|SpaceAfter=No
+3	穿甲	穿甲	VERB	VV	_	5	amod	_	start_char=4|end_char=6|SpaceAfter=No
+4	清	清	PART	PFA	_	5	case	_	start_char=6|end_char=7|SpaceAfter=No
+5	氣閣	氣閣	NOUN	NN	_	0	root	_	start_char=7|end_char=9|SpaceAfter=No
+6	伶	伶	PROPN	NNP	_	5	appos	_	start_char=9|end_char=10|SpaceAfter=No
+7	俐	俐	PROPN	NNP	_	6	flat:name	_	start_char=10|end_char=11|SpaceAfter=No
+8	。	。	PUNCT	.	_	6	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 185
+# text = 無，你是佇咧講笑詼是毋？
+1	無	無	VERB	VV	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+2	，	，	PUNCT	,	_	1	punct	_	start_char=1|end_char=2|SpaceAfter=No
+3	你	你	PRON	PRP	Person=2	6	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+4	是	是	AUX	VC	_	6	cop	_	start_char=3|end_char=4|SpaceAfter=No
+5	佇	佇	NOUN	NN	_	6	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+6	咧	咧	VERB	VV	_	1	ccomp	_	start_char=5|end_char=6|SpaceAfter=No
+7	講笑詼	講笑詼	NOUN	NN	_	6	obj	_	start_char=6|end_char=9|SpaceAfter=No
+8	是	是	AUX	VC	_	6	cop	_	start_char=9|end_char=10|SpaceAfter=No
+9	毋	毋	PART	UH	_	8	discourse	_	start_char=10|end_char=11|SpaceAfter=No
+10	？	？	PUNCT	.	_	6	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 186
+# text = 伊較早是真出名的明星。
+1	伊較早	伊較早	PROPN	NNP	_	6	nsubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	是	是	AUX	VC	_	6	cop	_	start_char=3|end_char=4|SpaceAfter=No
+3	真	真	ADV	RB	_	4	advmod	_	start_char=4|end_char=5|SpaceAfter=No
+4	出名	出名	ADJ	JJ	_	6	amod	_	start_char=5|end_char=7|SpaceAfter=No
+5	的	的	SCONJ	DEC	_	4	mark:rel	_	start_char=7|end_char=8|SpaceAfter=No
+6	明星	明星	NOUN	NN	_	0	root	_	start_char=8|end_char=10|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 187
+# text = 你才食一點仔物件哪會飽？
+1	你	你	PRON	PRP	Person=2	3	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	才	才	SCONJ	RB	_	3	mark	_	start_char=1|end_char=2|SpaceAfter=No
+3	食	食	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+4	一	一	NUM	CD	NumType=Card	7	nummod	_	start_char=3|end_char=4|SpaceAfter=No
+5	點	點	NOUN	NNB	_	4	clf	_	start_char=4|end_char=5|SpaceAfter=No
+6	仔	仔	PART	PFA	_	7	case	_	start_char=5|end_char=6|SpaceAfter=No
+7	物件	物件	NOUN	NN	_	3	obj	_	start_char=6|end_char=8|SpaceAfter=No
+8	哪	哪	PART	UH	_	3	discourse:sp	_	start_char=8|end_char=9|SpaceAfter=No
+9	會飽	會飽	NOUN	NN	_	3	obj	_	start_char=9|end_char=11|SpaceAfter=No
+10	？	？	PUNCT	.	_	3	punct	_	start_char=11|end_char=12|SpaceAfter=No
+
+# sent_id = 188
+# text = 我差一點仔予你驚死！
+1	我差	我差	NOUN	NN	_	4	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	一	一	NUM	CD	NumType=Card	3	nummod	_	start_char=2|end_char=3|SpaceAfter=No
+3	點	點	NOUN	NN	_	4	nsubj	_	start_char=3|end_char=4|SpaceAfter=No
+4	仔予	仔予	VERB	VV	_	0	root	_	start_char=4|end_char=6|SpaceAfter=No
+5	你	你	PRON	PRP	Person=2	6	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	驚死	驚死	VERB	VV	_	4	ccomp	_	start_char=7|end_char=9|SpaceAfter=No
+7	！	！	PUNCT	.	_	4	punct	_	start_char=9|end_char=10|SpaceAfter=No
+
+# sent_id = 189
+# text = 伊酒干焦啉一點仔囝爾爾就醉矣。
+1	伊酒	伊酒	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	干焦	干焦	PROPN	NNP	_	3	compound	_	start_char=2|end_char=4|SpaceAfter=No
+3	啉	啉	PART	SFN	_	5	nmod	_	start_char=4|end_char=5|SpaceAfter=No
+4	一	一	NUM	CD	NumType=Card	5	nummod	_	start_char=5|end_char=6|SpaceAfter=No
+5	點	點	NOUN	NN	_	8	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	仔囝爾爾	仔囝爾爾	PROPN	NNP	_	8	nsubj	_	start_char=7|end_char=11|SpaceAfter=No
+7	就	就	SCONJ	RB	_	8	mark	_	start_char=11|end_char=12|SpaceAfter=No
+8	醉矣	醉矣	VERB	VV	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+9	。	。	PUNCT	.	_	8	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 190
+# text = 咱下晡撥一點仔時間來去看阿舅。
+1	咱下	咱下	VERB	VV	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	晡	晡	PART	SFN	_	10	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	撥	撥	VERB	VV	_	10	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+4	一	一	NUM	CD	NumType=Card	7	nummod	_	start_char=4|end_char=5|SpaceAfter=No
+5	點	點	NOUN	NNB	_	4	clf	_	start_char=5|end_char=6|SpaceAfter=No
+6	仔	仔	PART	PFA	_	7	case	_	start_char=6|end_char=7|SpaceAfter=No
+7	時間	時間	NOUN	NN	_	3	obj	_	start_char=7|end_char=9|SpaceAfter=No
+8	來	來	SCONJ	RB	_	10	mark	_	start_char=9|end_char=10|SpaceAfter=No
+9	去	去	SCONJ	RB	_	10	mark	_	start_char=10|end_char=11|SpaceAfter=No
+10	看	看	VERB	VV	_	0	root	_	start_char=11|end_char=12|SpaceAfter=No
+11	阿舅	阿舅	PROPN	NNP	_	10	obj	_	start_char=12|end_char=14|SpaceAfter=No
+12	。	。	PUNCT	.	_	10	punct	_	start_char=14|end_char=15|SpaceAfter=No
+
+# sent_id = 191
+# text = 我拄仔好想欲走。
+1	我	我	PRON	PRP	Person=1	6	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	拄仔	拄仔	PROPN	NNP	_	1	flat:name	_	start_char=1|end_char=3|SpaceAfter=No
+3	好	好	ADV	RB	_	6	advmod	_	start_char=3|end_char=4|SpaceAfter=No
+4	想	想	AUX	MD	_	6	aux	_	start_char=4|end_char=5|SpaceAfter=No
+5	欲	欲	AUX	MD	_	6	aux	_	start_char=5|end_char=6|SpaceAfter=No
+6	走	走	VERB	VV	_	0	root	_	start_char=6|end_char=7|SpaceAfter=No
+7	。	。	PUNCT	.	_	6	punct	_	start_char=7|end_char=8|SpaceAfter=No
+
+# sent_id = 192
+# text = 伊去予隔壁的阿美仔迷去矣。
+1	伊去	伊去	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	予	予	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	隔壁	隔壁	NOUN	NN	_	6	nmod	_	start_char=3|end_char=5|SpaceAfter=No
+4	的	的	PART	DEC	Case=Gen	3	case	_	start_char=5|end_char=6|SpaceAfter=No
+5	阿美	阿美	PROPN	NNP	_	6	nmod	_	start_char=6|end_char=8|SpaceAfter=No
+6	仔迷	仔迷	NOUN	NN	_	2	obj	_	start_char=8|end_char=10|SpaceAfter=No
+7	去矣	去矣	VERB	VV	_	2	ccomp	_	start_char=10|end_char=12|SpaceAfter=No
+8	。	。	PUNCT	.	_	2	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 193
+# text = 伊昨暗騎車想欲表演特技，無拄好煞犁田。
+1	伊昨	伊昨	PROPN	NNP	_	3	nmod	_	start_char=0|end_char=2|SpaceAfter=No
+2	暗騎	暗騎	VERB	VV	_	3	compound	_	start_char=2|end_char=4|SpaceAfter=No
+3	車	車	PART	SFN	_	6	nsubj	_	start_char=4|end_char=5|SpaceAfter=No
+4	想	想	AUX	MD	_	6	aux	_	start_char=5|end_char=6|SpaceAfter=No
+5	欲	欲	AUX	MD	_	6	aux	_	start_char=6|end_char=7|SpaceAfter=No
+6	表演	表演	VERB	VV	_	0	root	_	start_char=7|end_char=9|SpaceAfter=No
+7	特技	特技	NOUN	NN	_	6	obj	_	start_char=9|end_char=11|SpaceAfter=No
+8	，	，	PUNCT	,	_	6	punct	_	start_char=11|end_char=12|SpaceAfter=No
+9	無	無	VERB	VV	_	6	parataxis	_	start_char=12|end_char=13|SpaceAfter=No
+10	拄好	拄好	ADJ	JJ	_	11	compound	_	start_char=13|end_char=15|SpaceAfter=No
+11	煞	煞	PART	SFN	_	12	nsubj	_	start_char=15|end_char=16|SpaceAfter=No
+12	犁田	犁田	VERB	VV	_	6	parataxis	_	start_char=16|end_char=18|SpaceAfter=No
+13	。	。	PUNCT	.	_	6	punct	_	start_char=18|end_char=19|SpaceAfter=No
+
+# sent_id = 194
+# text = 阿母素常佇食暗飽會去外口行行踅踅咧。
+1	阿母	阿母	PROPN	NNP	_	2	compound	_	start_char=0|end_char=2|SpaceAfter=No
+2	素	素	PART	SFN	_	9	nsubj	_	start_char=2|end_char=3|SpaceAfter=No
+3	常	常	ADV	RB	_	9	advmod	_	start_char=3|end_char=4|SpaceAfter=No
+4	佇	佇	VERB	VV	_	9	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+5	食暗	食暗	VERB	VV	_	4	xcomp	_	start_char=5|end_char=7|SpaceAfter=No
+6	飽會	飽會	NOUN	NN	_	7	obj	_	start_char=7|end_char=9|SpaceAfter=No
+7	去	去	VERB	VV	_	9	advcl	_	start_char=9|end_char=10|SpaceAfter=No
+8	外口	外口	NOUN	NN	_	7	obj	_	start_char=10|end_char=12|SpaceAfter=No
+9	行行	行行	VERB	VV	_	0	root	_	start_char=12|end_char=14|SpaceAfter=No
+10	踅	踅	PUNCT	,	_	11	punct	_	start_char=14|end_char=15|SpaceAfter=No
+11	踅咧	踅咧	VERB	VV	_	9	conj	_	start_char=15|end_char=17|SpaceAfter=No
+12	。	。	PUNCT	.	_	9	punct	_	start_char=17|end_char=18|SpaceAfter=No
+
+# sent_id = 195
+# text = 我轉來欲攢下晝頓，行入灶跤就看著大漢查某囝當咧煮矣。
+1	我	我	PRON	PRP	Person=1	11	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	轉來	轉來	VERB	VV	_	11	advcl	_	start_char=1|end_char=3|SpaceAfter=No
+3	欲	欲	AUX	MD	_	4	aux	_	start_char=3|end_char=4|SpaceAfter=No
+4	攢下	攢下	VERB	VV	_	11	advcl	_	start_char=4|end_char=6|SpaceAfter=No
+5	晝頓	晝頓	PROPN	NNP	_	4	obj	_	start_char=6|end_char=8|SpaceAfter=No
+6	，	，	PUNCT	,	_	4	punct	_	start_char=8|end_char=9|SpaceAfter=No
+7	行入	行入	VERB	VV	_	11	advcl	_	start_char=9|end_char=11|SpaceAfter=No
+8	灶	灶	NOUN	NN	_	9	compound	_	start_char=11|end_char=12|SpaceAfter=No
+9	跤	跤	PART	SFN	_	7	obj	_	start_char=12|end_char=13|SpaceAfter=No
+10	就	就	SCONJ	RB	_	11	mark	_	start_char=13|end_char=14|SpaceAfter=No
+11	看	看	VERB	VV	_	19	advcl	_	start_char=14|end_char=15|SpaceAfter=No
+12	著	著	AUX	AS	Aspect=Prog	11	aux	_	start_char=15|end_char=16|SpaceAfter=No
+13	大	大	PART	PFA	_	14	case	_	start_char=16|end_char=17|SpaceAfter=No
+14	漢查	漢查	NOUN	NN	_	11	obj	_	start_char=17|end_char=19|SpaceAfter=No
+15	某	某	DET	DT	_	19	obl	_	start_char=19|end_char=20|SpaceAfter=No
+16	囝	囝	SCONJ	RB	_	19	mark	_	start_char=20|end_char=21|SpaceAfter=No
+17	當	當	ADP	IN	_	18	case	_	start_char=21|end_char=22|SpaceAfter=No
+18	咧煮	咧煮	VERB	VV	_	19	xcomp	_	start_char=22|end_char=24|SpaceAfter=No
+19	矣	矣	VERB	VV	_	0	root	_	start_char=24|end_char=25|SpaceAfter=No
+20	。	。	PUNCT	.	_	19	punct	_	start_char=25|end_char=26|SpaceAfter=No
+
+# sent_id = 196
+# text = 我明仔載歇假，欲來去𬦰山。
+1	我	我	PRON	PRP	Person=1	9	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	明仔	明仔	PROPN	NNP	_	1	flat:name	_	start_char=1|end_char=3|SpaceAfter=No
+3	載	載	VERB	VV	_	9	advcl	_	start_char=3|end_char=4|SpaceAfter=No
+4	歇假	歇假	VERB	VV	_	3	xcomp	_	start_char=4|end_char=6|SpaceAfter=No
+5	，	，	PUNCT	,	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No
+6	欲	欲	AUX	MD	_	9	aux	_	start_char=7|end_char=8|SpaceAfter=No
+7	來	來	SCONJ	RB	_	9	mark	_	start_char=8|end_char=9|SpaceAfter=No
+8	去	去	VERB	VV	_	9	advcl	_	start_char=9|end_char=10|SpaceAfter=No
+9	𬦰山	𬦰山	VERB	VV	_	0	root	_	start_char=10|end_char=12|SpaceAfter=No
+10	。	。	PUNCT	.	_	9	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
+# sent_id = 197
+# text = 阿姊佮小弟相𤆬去讀冊。
+1	阿姊	阿姊	PROPN	NNP	_	2	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	佮	佮	VERB	VV	_	0	root	_	start_char=2|end_char=3|SpaceAfter=No
+3	小弟	小弟	NOUN	NN	_	6	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+4	相𤆬	相𤆬	VERB	VV	_	6	advcl	_	start_char=5|end_char=7|SpaceAfter=No
+5	去	去	SCONJ	RB	_	6	mark	_	start_char=7|end_char=8|SpaceAfter=No
+6	讀冊	讀冊	VERB	VV	_	2	ccomp	_	start_char=8|end_char=10|SpaceAfter=No
+7	。	。	PUNCT	.	_	2	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 198
+# text = 聽你咧哭爸，我就袂爽。
+1	聽你咧	聽你咧	VERB	VV	_	2	csubj	_	start_char=0|end_char=3|SpaceAfter=No
+2	哭	哭	VERB	VV	_	0	root	_	start_char=3|end_char=4|SpaceAfter=No
+3	爸	爸	NOUN	NN	_	2	obj	_	start_char=4|end_char=5|SpaceAfter=No
+4	，	，	PUNCT	,	_	8	punct	_	start_char=5|end_char=6|SpaceAfter=No
+5	我	我	PRON	PRP	Person=1	8	nsubj	_	start_char=6|end_char=7|SpaceAfter=No
+6	就	就	SCONJ	RB	_	8	mark	_	start_char=7|end_char=8|SpaceAfter=No
+7	袂	袂	AUX	MD	_	8	aux	_	start_char=8|end_char=9|SpaceAfter=No
+8	爽	爽	ADJ	JJ	_	2	parataxis	_	start_char=9|end_char=10|SpaceAfter=No
+9	。	。	PUNCT	.	_	2	punct	_	start_char=10|end_char=11|SpaceAfter=No
+
+# sent_id = 199
+# text = 我感覺按呢做無通。
+1	我	我	PRON	PRP	Person=1	2	nsubj	_	start_char=0|end_char=1|SpaceAfter=No
+2	感覺	感覺	VERB	VV	_	0	root	_	start_char=1|end_char=3|SpaceAfter=No
+3	按呢	按呢	PROPN	NNP	_	4	nsubj	_	start_char=3|end_char=5|SpaceAfter=No
+4	做	做	VERB	VV	_	2	ccomp	_	start_char=5|end_char=6|SpaceAfter=No
+5	無通	無通	VERB	VV	_	4	xcomp	_	start_char=6|end_char=8|SpaceAfter=No
+6	。	。	PUNCT	.	_	2	punct	_	start_char=8|end_char=9|SpaceAfter=No
+
+# sent_id = 200
+# text = 阿公定定去彼間𥴊仔店交關。
+1	阿公	阿公	PROPN	NNP	_	7	nsubj	_	start_char=0|end_char=2|SpaceAfter=No
+2	定定	定定	VERB	VV	_	0	root	_	start_char=2|end_char=4|SpaceAfter=No
+3	去	去	VERB	VV	_	7	advcl	_	start_char=4|end_char=5|SpaceAfter=No
+4	彼間	彼間	NOUN	NN	_	6	nmod	_	start_char=5|end_char=7|SpaceAfter=No
+5	𥴊仔	𥴊仔	PROPN	NNP	_	6	compound	_	start_char=7|end_char=9|SpaceAfter=No
+6	店	店	PART	SFN	_	3	obj	_	start_char=9|end_char=10|SpaceAfter=No
+7	交關	交關	VERB	VV	_	2	xcomp	_	start_char=10|end_char=12|SpaceAfter=No
+8	。	。	PUNCT	.	_	2	punct	_	start_char=12|end_char=13|SpaceAfter=No
+
