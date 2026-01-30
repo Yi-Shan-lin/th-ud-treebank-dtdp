@@ -1,7 +1,31 @@
-# Taiwanese Hokkien UD Treebank (DTDP Final Project)
+# Taiwanese Hokkien UD Treebank
 
-This repository contains the final project for the course **Dependency Treebank and Dependency Parsing (DTDP)**.  
+This repository contains a small-scale Universal Dependencies (UD) treebank
+for Taiwanese Hokkien (Southern Min).
 
-It provides a small **Universal Dependencies (UD)** treebank for **Taiwanese Hokkien**, annotated with around 200 sentences from the MOE Taiwanese Hokkien Dictionary.  
+## Overview
+- Language: Taiwanese Hokkien
+- Annotation framework: Universal Dependencies
+- Number of sentences: ~200
+- Annotation level: POS + dependency relations
+- Annotation method: manual annotation
 
-The repository also includes code for running **cross-lingual dependency parsing experiments** using the **Stanza** library developed at Stanford University, with Mandarin as the source language.
+## Motivation
+Taiwanese Hokkien is a low-resource language.
+This project explores whether cross-lingual dependency parsing models
+trained on Mandarin Chinese can be transferred to Hokkien.
+
+## Data
+Annotated data is provided in CoNLL-U format `data/th_ud.conllu`.
+
+## Experiments
+We evaluate cross-lingual parsing transfer using the Stanford NLP library (Stanza),
+with Mandarin UD models applied to Taiwanese Hokkien data, the result is provided in CoNLL-U format `data/pred`.
+
+## Tools
+- UD annotation
+- Stanza
+- Python
+
+## Disclaimer
+This dataset is created for academic and educational purposes only.
